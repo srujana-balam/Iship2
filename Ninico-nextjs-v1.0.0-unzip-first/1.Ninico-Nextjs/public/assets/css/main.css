@@ -6762,7 +6762,7 @@ only screen and (min-width: 768px) and (max-width: 991px),
 }
 
 .tptrack__submition:hover {
-    background-color: #b50c37;
+    background-color: #5bb50c;
 }
 
 /*----------------------------------------*/
@@ -9268,13 +9268,12 @@ only screen and (min-width: 576px) and (max-width: 767px) {
 }
 
 .tpsign__reg {
-    background-color: #f3eee7;
+    background-color: green;
     color: var(--tp-common-black);
 }
 
 .tpsign__reg:hover {
-    color: var(--tp-common-white);
-    background-color: var(--tp-text-body);
+    background-color: rgb(15, 212, 10);
 }
 
 /*----------------------------------------*/
