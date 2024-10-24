@@ -3,7 +3,7 @@
         "id": 1,
         "title": "Bradley Burgess 2",
         "imgf": "product-1.jpg",
-        "imgb": "product-2.jpg",
+        "imgb": "product-1.jpg",
         "category": [
             {
                 "type": "Kids"
@@ -27,8 +27,8 @@
     {
         "id": 2,
         "title": "Allie Sharp",
-        "imgf": "product-3.jpg",
-        "imgb": "product-4.jpg",
+        "imgf": "product-2.jpg",
+        "imgb": "product-2.jpg",
         "category": [
             {
                 "type": "Mens"
@@ -52,8 +52,8 @@
     {
         "id": 3,
         "title": "Nathaniel Baldwin",
-        "imgf": "product-5.jpg",
-        "imgb": "product-6.jpg",
+        "imgf": "product-3.jpg",
+        "imgb": "product-3.jpg",
         "category": [
             {
                 "type": "Womens"
@@ -77,8 +77,8 @@
     {
         "id": 4,
         "title": "Effie Rios",
-        "imgf": "product-7.jpg",
-        "imgb": "product-8.jpg",
+        "imgf": "product-4.webp",
+        "imgb": "product-4.webp",
         "category": [
             {
                 "type": "Mens"
@@ -102,8 +102,8 @@
     {
         "id": 5,
         "title": "Carolyn Goodwin",
-        "imgf": "product-9.jpg",
-        "imgb": "product-10.jpg",
+        "imgf": "product-5.jpg",
+        "imgb": "product-5.jpg",
         "category": [
             {
                 "type": "Kids"
@@ -127,8 +127,8 @@
     {
         "id": 6,
         "title": "Evelyn Patton",
-        "imgf": "product-11.jpg",
-        "imgb": "product-12.jpg",
+        "imgf": "product-6.jpg",
+        "imgb": "product-6.jpg",
         "category": [
             {
                 "type": "Mens"
@@ -152,8 +152,8 @@
     {
         "id": 7,
         "title": "Sally Ray",
-        "imgf": "product-13.jpg",
-        "imgb": "product-14.jpg",
+        "imgf": "product-7.jpg",
+        "imgb": "product-7.jpg",
         "category": [
             {
                 "type": "Womens"
@@ -177,8 +177,8 @@
     {
         "id": 8,
         "title": "Ora Bowman",
-        "imgf": "product-15.jpg",
-        "imgb": "product-16.jpg",
+        "imgf": "product-8.webp",
+        "imgb": "product-8.webp",
         "category": [
             {
                 "type": "Mens"
@@ -202,8 +202,8 @@
     {
         "id": 9,
         "title": "Frederick Valdez",
-        "imgf": "product-17.jpg",
-        "imgb": "product-18.jpg",
+        "imgf": "product-9.jpg",
+        "imgb": "product-9.jpg",
         "category": [
             {
                 "type": "Kids"
