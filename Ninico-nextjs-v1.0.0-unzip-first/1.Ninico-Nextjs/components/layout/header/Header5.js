@@ -102,13 +102,13 @@ export default function Header5({ scroll, isMobileMenu, handleMobileMenu, isCart
                                                     </li>
                                                 </ul>
                                             </li> */}
-                                            <li className="has-dropdown">
+                                            {/* <li className="has-dropdown">
                                                 <Link href="/blog">Customisation</Link>
                                                 <ul className="submenu">
                                                     <li><Link href="/blog">Blog</Link></li>
                                                 
                                                 </ul>
-                                            </li>
+                                            </li> */}
                                             <li><Link href="/contact">Contact</Link></li>
                                         </ul>
                                     </nav>
