@@ -31,9 +31,9 @@ export default function Sidebar({ isMobileMenu, handleMobileMenu }) {
                                 <ul>
                                     <li><Link href="/shop">Furniture</Link></li>
                                     <li><Link href="/shop">Wooden</Link></li>
-                                    <li><Link href="/shop">Lifestyle</Link></li>
-                                    <li><Link href="/shop-2">Shopping</Link></li>
-                                    <li><Link href="/track">Track Product</Link></li>
+                                    <li><Link href="/shop">Lamps</Link></li>
+                                    {/* <li><Link href="/shop-2">Shopping</Link></li>
+                                    <li><Link href="/track">Track Product</Link></li> */}
                                 </ul>
                             </div>
                         </div>

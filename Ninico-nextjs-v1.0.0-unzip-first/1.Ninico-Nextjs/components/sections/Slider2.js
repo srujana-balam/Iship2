@@ -52,9 +52,9 @@ export default function Slider2() {
                                             <div className="col-xl-7 col-lg-6 col-md-6 d-none d-md-block">
                                                 <div className="tpslidertwo__img p-relative text-end">
                                                     <img src="/assets/img/slider/slider-01.png" alt="" />
-                                                    <div className="tpslidertwo__img-shape">
+                                                    {/* <div className="tpslidertwo__img-shape">
                                                         <img src="/assets/img/slider/fasion-tag-01.png" alt="tag" />
-                                                    </div>
+                                                    </div> */}
                                                 </div>
                                             </div>
                                         </div>

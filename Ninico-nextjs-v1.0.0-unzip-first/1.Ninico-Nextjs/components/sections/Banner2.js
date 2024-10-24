@@ -13,7 +13,7 @@ export default function Banner2() {
                                     <img src="/assets/img/banner/banner-03-01.jpg" alt="banner-img" />
                                     <div className="tpbanneritem__content">
                                         <p>Furniture</p>
-                                        <h5 className="tpbanneritem__title mb-60"><Link href="/shop-2">New Modern  Stylist <br /> Crafts</Link></h5>
+                                        <h5 className="tpbanneritem__title mb-60"><Link href="/shop-2">New Modern  <br /> Crafts</Link></h5>
                                         <div className="tpbanneritem__btn">
                                             <Link className="tp-btn green-btn banner-animation" href="/shop-2">Shop Now <i className="fal fa-long-arrow-right" /></Link>
                                         </div>
