@@ -46,13 +46,13 @@ export default function DealProduct3() {
                             <div className="col-xxl-5 col-xl-6 col-lg-6 col-md-12">
                                 <div className="tpdealcontact tp-red-deal-text pt-30 mb-30">
                                     <div className="tpdealcontact__price mb-5">
-                                        <span>$49.00</span>
-                                        <del>$59.00</del>
+                                        <span>120/-</span>
+                                        <del>200/-</del>
                                     </div>
                                     <div className="tpdealcontact__text mb-30">
-                                        <h4 className="tpdealcontact__title mb-10"><Link href="/shop-details">Pro2 Abstract Folded Pots</Link></h4>
-                                        <p>Elegant pink origami design three-dimensional view and decoration co-exist.
-                                            Great for adding a decorative touch to any room’s decor.</p>
+                                        <h4 className="tpdealcontact__title mb-10">Hemp Plant</h4>
+                                        <p>Hemp is a versatile and sustainable plant that can grow up to 15 feet tall. It features distinct palmate leaves with 5-7 leaflets.
+                                        It Requires less water and fewer pesticides compared to traditional crops and Improves soil health and prevents erosion.</p>
                                     </div>
                                     <div className="tpdealcontact__progress mb-30">
                                         <div className="progress">
@@ -70,7 +70,7 @@ export default function DealProduct3() {
                             <div className="col-xxl-7 col-xl-6 col-lg-6 col-md-12">
                                 <div className="tpdealproduct mb-30">
                                     <div className="tpdealproduct__thumb">
-                                        <img src="assets/img/floded/floded-03.png" alt="dealproduct-thumb" />
+                                        <img src="Hemp2.jpg" alt="Hemp Plant" />
                                     </div>
                                 </div>
                             </div>

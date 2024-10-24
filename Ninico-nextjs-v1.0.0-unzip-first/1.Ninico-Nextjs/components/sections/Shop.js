@@ -41,7 +41,7 @@ export default function Shop() {
                         <div className="col-md-12">
                             <div className="tpsectionarea text-center mb-35">
                                 <h5 className="tpsectionarea__subtitle">Follow On</h5>
-                                <h4 className="tpsectionarea__title"><i className="fab fa-instagram" /> ninico-shop</h4>
+                                <h4 className="tpsectionarea__title"><i className="fab fa-instagram" />&nbsp;Home-Aura</h4>
                             </div>
                         </div>
                     </div>
@@ -49,34 +49,31 @@ export default function Shop() {
                         <div className="shopslider-active swiper-container">
                             <Swiper {...swiperOptions}>
                                 <SwiperSlide className="tpshopitem">
-                                    <Link className="popup-image" href="#">
-                                        <img src="/assets/img/instagram/instagram-01.jpg" alt="shop-thumb" />
-                                    </Link>
+                                        <img src="PlantsSlick.jpg" alt="Plants" />
                                 </SwiperSlide>
                                 <SwiperSlide className="tpshopitem">
-                                    <Link className="popup-image" href="#">
                                         <img src="/assets/img/instagram/instagram-02.jpg" alt="shop-thumb" />
-                                    </Link>
+                                    {/* </Link> */}
                                 </SwiperSlide>
                                 <SwiperSlide className="tpshopitem">
-                                    <Link className="popup-image" href="#">
+                                    {/* <Link className="popup-image" href="#"> */}
                                         <img src="/assets/img/instagram/instagram-03.jpg" alt="shop-thumb" />
-                                    </Link>
+                                    {/* </Link> */}
                                 </SwiperSlide>
                                 <SwiperSlide className="tpshopitem">
-                                    <Link className="popup-image" href="#">
+                                    {/* <Link className="popup-image" href="#"> */}
                                         <img src="/assets/img/instagram/instagram-04.jpg" alt="shop-thumb" />
-                                    </Link>
+                                    {/* </Link> */}
                                 </SwiperSlide>
                                 <SwiperSlide className="tpshopitem">
-                                    <Link className="popup-image" href="#">
+                                    {/* <Link className="popup-image" href="#"> */}
                                         <img src="/assets/img/instagram/instagram-05.jpg" alt="shop-thumb" />
-                                    </Link>
+                                    {/* </Link> */}
                                 </SwiperSlide>
                                 <SwiperSlide className="tpshopitem">
-                                    <Link className="popup-image" href="#">
+                                    {/* <Link className="popup-image" href="#"> */}
                                         <img src="/assets/img/instagram/instagram-06.jpg" alt="shop-thumb" />
-                                    </Link>
+                                    {/* </Link> */}
                                 </SwiperSlide>
                             </Swiper>
                         </div>

@@ -16,13 +16,13 @@ export default function DealProduct4() {
                         <div className="col-xxl-5 col-lg-6 col-md-12">
                             <div className="tpdealcontact pt-130 pb-140">
                                 <div className="tpdealcontact__price mb-5">
-                                    <span>$49.00</span>
-                                    <del>$59.00</del>
+                                    <span>120/-</span>
+                                    <del>200/-</del>
                                 </div>
                                 <div className="tpdealcontact__text mb-30">
-                                    <h4 className="tpdealcontact__title mb-20"><Link href="/shop-details-2">Packet Grocery Products</Link></h4>
-                                    <p>Elegant pink origami design three-dimensional view and decoration co-exist.
-                                        Great for adding a decorative touch to any room’s decor.</p>
+                                    <h4 className="tpdealcontact__title mb-20"><Link href="/shop-details-2">Hemp Plant</Link></h4>
+                                    <p>Hemp is a versatile and sustainable plant that can grow up to 15 feet tall. It features distinct palmate leaves with 5-7 leaflets.
+                                    It Requires less water and fewer pesticides compared to traditional crops and Improves soil health and prevents erosion.</p>
                                 </div>
                                 <div className="tpdealcontact__progress mb-30">
                                     <div className="progress">
