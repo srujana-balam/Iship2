@@ -79,7 +79,7 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isCart
                                                             <li><Link href="/">Kitchen  Home</Link></li>
                                                             <li><Link href="/index-2">Lamps Home</Link></li>
                                                             <li><Link href="/index-3">Furniture Home</Link></li>
-                                                            <li><Link href="/index-4">Wall Home</Link></li>
+                                                           
                                                         </ul>
                                                     </li>
                                                     <li className="has-dropdown">
