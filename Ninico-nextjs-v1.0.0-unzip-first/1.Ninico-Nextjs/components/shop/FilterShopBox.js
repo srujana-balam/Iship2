@@ -199,14 +199,14 @@ const FilterShopBox = () => {
                                     </option>
                                 </select>
                             </div>
-                            <div className="tpproductnav tpnavbar product-filter-nav">
+                            {/* <div className="tpproductnav tpnavbar product-filter-nav">
                                 <nav>
                                     <div className="nav nav-tabs" id="nav-tab" role="tablist">
                                         <button className={activeIndex == 1 ? "nav-link active" : "nav-link"} onClick={() => handleOnClick(1)}><i className="fal fa-list-ul" /></button>
                                         <button className={activeIndex == 2 ? "nav-link active" : "nav-link"} onClick={() => handleOnClick(2)}><i className="fal fa-th" /></button>
                                     </div>
                                 </nav>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
