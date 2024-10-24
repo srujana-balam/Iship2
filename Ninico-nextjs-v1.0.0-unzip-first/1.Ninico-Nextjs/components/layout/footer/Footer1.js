@@ -11,7 +11,7 @@ export default function Footer1() {
                                 <div className="col-lg-3 col-md-4 col-sm-6">
                                     <div className="footer-widget footer-col-1 mb-40">
                                         <div className="footer-logo mb-30">
-                                            <Link href="/"><img src="/assets/img/logo/logo.png" alt="logo" /></Link>
+                                            <Link href="/"><img src="hoeAuroLogo.png" alt="logo" /></Link>
                                         </div>
                                         <div className="footer-content">
                                             <p>Elegant pink origami design three <br /> dimensional view and decoration co-exist.
