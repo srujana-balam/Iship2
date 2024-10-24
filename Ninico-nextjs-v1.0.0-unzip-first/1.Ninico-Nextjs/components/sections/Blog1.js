@@ -10,7 +10,7 @@ export default function Blog1() {
                         <div className="col-lg-8 col-md-12">
                             <div className="blog-main-box">
                                 <div className="row">
-                                    <div className="col-md-12 col-12">
+                                    {/* <div className="col-md-12 col-12">
                                         <div className="blogheader mb-20 d-flex align-items-center justify-content-between">
                                             <div className="tpsection mb-20">
                                                 <h4 className="tpsection__title">Popular Products</h4>
@@ -20,10 +20,10 @@ export default function Blog1() {
                                                 </h4>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> */}
                                 </div>
                                 <div className="row">
-                                    <div className="col-lg-4 col-md-6 col-sm-6">
+                                    {/* <div className="col-lg-4 col-md-6 col-sm-6">
                                         <div className="blogitem mb-40">
                                             <div className="blogitem__thumb fix mb-20">
                                                 <Link href="/blog-details"><img src="/assets/img/blog/blog-01.jpg" alt="blog-bg" /></Link>
@@ -42,9 +42,9 @@ export default function Blog1() {
                                                 <h4 className="blogitem__title"><Link href="/blog-details">Here is why you cannot miss EORS 15</Link></h4>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> */}
                                     <div className="col-lg-4 col-md-6 col-sm-6">
-                                        <div className="blogitem mb-40">
+                                        {/* <div className="blogitem mb-40">
                                             <div className="blogitem__thumb fix mb-20">
                                                 <Link href="/blog-details"><img src="/assets/img/blog/blog-02.jpg" alt="blog-bg" /></Link>
                                             </div>
@@ -62,7 +62,7 @@ export default function Blog1() {
                                                 <h4 className="blogitem__title"><Link href="/blog-details">Myntra launches international brand DeFacto</Link>
                                                 </h4>
                                             </div>
-                                        </div>
+                                        </div> */}
                                     </div>
                                     <div className="col-lg-4 col-md-6 col-sm-6">
                                         <div className="blogitem mb-40">
