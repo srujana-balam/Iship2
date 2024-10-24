@@ -63,7 +63,7 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isCart
                                         </form>
                                     </div>
                                     <div className="header-meta header-brand d-flex align-items-center">
-                                        <div className="header-meta__lang">
+                                        {/* <div className="header-meta__lang">
                                             <ul>
                                                 <li>
                                                     <Link href="#">
@@ -84,14 +84,14 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isCart
                                                     </ul>
                                                 </li>
                                             </ul>
-                                        </div>
-                                        <div className="header-meta__value mr-15">
+                                        </div> */}
+                                        {/* <div className="header-meta__value mr-15">
                                             <select>
                                                 <option>USD</option>
                                                 <option>YEAN</option>
                                                 <option>EURO</option>
                                             </select>
-                                        </div>
+                                        </div> */}
                                         <div className="header-meta__social d-flex align-items-center ml-25">
                                             <button className="header-cart p-relative tp-cart-toggle" onClick={handleCartSidebar}>
                                                 <i className="fal fa-shopping-cart" />
@@ -117,11 +117,11 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isCart
                                     <a onClick={handleToggle} href="#"><i className="fal fa-bars" />Categories</a>
                                     <div className="category-menu" style={{ display: `${isToggled ? "block" : "none"}` }}>
                                         <ul className="cat-menu__list">
-                                            <li><Link href="/shop-2"><i className="fal fa-chair" /> Furniture</Link></li>
+                                            <li><Link href="/shop-2"><i className="fal fa-chair" />Plants</Link></li>
                                             <li className="menu-item-has-children"><Link href="/shop"><i className="far fa-campfire" />
                                                 Cooking </Link>
                                                 <ul className="submenu">
-                                                    <li><Link href="/shop-2">Chair</Link></li>
+                                                    <li><Link href="/shop-2"></Link></li>
                                                     <li><Link href="/shop-2">Table</Link></li>
                                                     <li><Link href="/shop">Wooden</Link></li>
                                                     <li><Link href="/shop">furniture</Link></li>
