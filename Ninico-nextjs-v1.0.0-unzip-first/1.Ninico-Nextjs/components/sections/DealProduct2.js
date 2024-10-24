@@ -13,9 +13,9 @@ export default function DealProduct2() {
                             <div className="col-lg-6 col-md-12">
                                 <div className="tpdealproduct">
                                     <div className="tpdealproduct__thumb p-relative text-center">
-                                        <img src="/assets/img/floded/floded-02.png" alt="dealproduct-thumb" />
+                                        <img src="Hemp2.jpg" alt="Hemp Plant" />
                                         <div className="tpdealproduct__offer">
-                                            <h5 className="tpdealproduct__offer-price"><span>From</span>$49</h5>
+                                            <h5 className="tpdealproduct__offer-price"><span>From</span>120/-</h5>
                                         </div>
                                     </div>
                                 </div>
@@ -23,13 +23,13 @@ export default function DealProduct2() {
                             <div className="col-lg-6 col-md-12">
                                 <div className="tpdealcontact pt-30">
                                     <div className="tpdealcontact__price mb-5">
-                                        <span>$49.00</span>
-                                        <del>$59.00</del>
+                                        <span>120/-</span>
+                                        <del>200/*</del>
                                     </div>
                                     <div className="tpdealcontact__text mb-35">
-                                        <h4 className="tpdealcontact__title mb-10"><Link href="/shop-details">Pro2 Abstract Folded Pots</Link></h4>
-                                        <p>Elegant pink origami design three-dimensional view and decoration co-exist.
-                                            Great for adding a decorative touch to any room’s decor.</p>
+                                        <h4 className="tpdealcontact__title mb-10">Hemp Plant</h4>
+                                        <p>Hemp is a versatile and sustainable plant that can grow up to 15 feet tall. It features distinct palmate leaves with 5-7 leaflets.
+                                        It Requires less water and fewer pesticides compared to traditional crops and Improves soil health and prevents erosion.</p>
                                     </div>
                                     <div className="tpdealcontact__progress tphome3 mb-30">
                                         <div className="progress">

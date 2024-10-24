@@ -206,7 +206,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isCart
                                                         <i className="fal fa-phone" />
                                                     </div>
                                                     <div className="menu-contact__info">
-                                                        <Link href="/tel:0123456">908. 408. 501. 89</Link>
+                                                        <Link href="/tel:0123456">7842727933</Link>
                                                     </div>
                                                 </div>
                                             </li>
