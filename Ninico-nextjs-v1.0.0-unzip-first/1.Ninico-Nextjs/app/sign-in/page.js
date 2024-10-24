@@ -86,14 +86,14 @@ export default function SignIn() {
                                         <div className="tptrack__id mb-10">
                                             
                                             <form action="#">
-                                                <span><i className="fa-solid fa-phone-flip"></i></span>
+                                                {/* <span><i className="fa-solid fa-phone-flip"></i></span> */}
                                                 <input type="number" placeholder="Phone Number" />
                                             </form>
                                         </div>
                                         <div className="tptrack__id mb-10">
                                             
                                             <form action="#">
-                                                <span><i className="fa-solid fa-phone-flip fa-rotate-90"></i></span>
+                                                {/* <span><i className="fa-solid fa-phone-flip fa-rotate-90"></i></span> */}
                                                 <input type="text" placeholder="Address" />
                                             </form>
                                         </div>
@@ -107,7 +107,7 @@ export default function SignIn() {
                                         <div className="tptrack__id mb-10">
                                             
                                             <form action="#">
-                                                <span><i className="fa-solid fa-phone-flip fa-rotate-90"></i></span>
+                                                {/* <span><i className="fa-solid fa-phone-flip fa-rotate-90"></i></span> */}
                                                 <input type="organisation" placeholder="Organisation" />
                                             </form>
                                         </div>
