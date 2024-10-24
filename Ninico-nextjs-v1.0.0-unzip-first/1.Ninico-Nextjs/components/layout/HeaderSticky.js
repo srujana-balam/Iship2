@@ -10,7 +10,7 @@ export default function HeaderSticky({ scroll, isCartSidebar, handleCartSidebar 
                     <div className="row align-items-center">
                         <div className="col-xl-2 col-lg-3">
                             <div className="logo">
-                                <Link href="/"><img src="/assets/img/logo/logo.png" alt="logo" /></Link>
+                                <Link href="/"><img src="" alt="logo" /></Link>
                             </div>
                         </div>
                         <div className="col-xl-6 col-lg-6">
@@ -20,21 +20,21 @@ export default function HeaderSticky({ scroll, isCartSidebar, handleCartSidebar 
                                         <li className="has-dropdown">
                                             <Link href="/">Home</Link>
                                             <ul className="submenu">
-                                                <li><Link href="/">Wooden Home</Link></li>
-                                                <li><Link href="/index-2">Fashion Home</Link></li>
+                                                <li><Link href="/">Kitchen Home</Link></li>
+                                                <li><Link href="/index-2">Lamps Home</Link></li>
                                                 <li><Link href="/index-3">Furniture Home</Link></li>
-                                                <li><Link href="/index-4">Cosmetics Home</Link></li>
-                                                <li><Link href="/index-5">Food Grocery</Link></li>
+                                                <li><Link href="/index-4">Wall Home</Link></li>
+                                                {/* <li><Link href="/index-5">Food Grocery</Link></li> */}
                                             </ul>
                                         </li>
                                         <li className="has-dropdown">
                                             <Link href="/shop">Shop</Link>
                                             <ul className="submenu">
                                                 <li><Link href="/shop">Shop</Link></li>
-                                                <li><Link href="/shop-2">Shop 2</Link></li>
+                                                {/* <li><Link href="/shop-2">Shop 2</Link></li>
                                                 <li><Link href="/shop-details">Shop Details </Link></li>
                                                 <li><Link href="/shop-details-2">Shop Details 2</Link></li>
-                                                <li><Link href="/shop-location">Shop Location</Link></li>
+                                                <li><Link href="/shop-location">Shop Location</Link></li> */}
                                                 <li><Link href="/cart">Cart</Link></li>
                                                 <li><Link href="/sign-in">Sign In</Link></li>
                                                 <li><Link href="/checkout">Checkout</Link></li>
@@ -42,7 +42,7 @@ export default function HeaderSticky({ scroll, isCartSidebar, handleCartSidebar 
                                                 <li><Link href="/track">Product Track</Link></li>
                                             </ul>
                                         </li>
-                                        <li className="has-dropdown has-megamenu">
+                                        {/* <li className="has-dropdown has-megamenu">
                                             <Link href="/about">Pages</Link>
                                             <ul className="submenu mega-menu">
                                                 <li>
@@ -75,13 +75,13 @@ export default function HeaderSticky({ scroll, isCartSidebar, handleCartSidebar 
                                                     </ul>
                                                 </li>
                                             </ul>
-                                        </li>
+                                        </li> */}
                                         <li className="has-dropdown">
-                                            <Link href="/blog">Blog</Link>
-                                            <ul className="submenu">
+                                            <Link href="/blog">Customisation</Link>
+                                            {/* <ul className="submenu">
                                                 <li><Link href="/blog">Blog</Link></li>
                                                 <li><Link href="/blog-details">Blog Details</Link></li>
-                                            </ul>
+                                            </ul> */}
                                         </li>
                                         <li><Link href="/contact">Contact</Link></li>
                                     </ul>
