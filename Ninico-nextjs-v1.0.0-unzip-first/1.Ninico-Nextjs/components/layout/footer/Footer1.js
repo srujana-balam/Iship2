@@ -11,59 +11,67 @@ export default function Footer1() {
                                 <div className="col-lg-3 col-md-4 col-sm-6">
                                     <div className="footer-widget footer-col-1 mb-40">
                                         <div className="footer-logo mb-30">
-                                            <Link href="/"><img src="hoeAuroLogo.png" alt="logo" /></Link>
+                                            <Link href="/"><img src="MainLogo.jpg" alt="logo" className="mainlogo" /></Link>
                                         </div>
                                         <div className="footer-content">
-                                            <p>Elegant pink origami design three <br /> dimensional view and decoration co-exist.
-                                                <br /> Great for adding a decorative touch to <br /> any room’s decor.</p>
+                                            <p>offers sustainable and stylish home furnishings,
+                                                 featuring natural items like plants and 
+                                                eco-conscious furniture. We focus on reducing environmental impact
+                                                 while enhancing the beauty of homes.</p>
+                                                
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-lg-2 col-md-4 col-sm-6">
                                     <div className="footer-widget footer-col-2 ml-30 mb-40">
-                                        <h4 className="footer-widget__title mb-30">Information</h4>
+                                        <h4 className="footer-widget__title mb-30">Home Aura</h4>
                                         <div className="footer-widget__links">
                                             <ul>
-                                                <li><Link href="#">Custom Service</Link></li>
-                                                <li><Link href="#">FAQs</Link></li>
-                                                <li><Link href="/track">Ordering Tracking</Link></li>
+                                                <li><Link href="#">Home</Link></li>
+                                                <li><Link href="#">Shop products</Link></li>
+                                                <li><Link href="/track">Customization</Link></li>
                                                 <li><Link href="/contact">Contacts</Link></li>
-                                                <li><Link href="#">Events</Link></li>
+                                                {/* <li><Link href="#">Events</Link></li> */}
                                             </ul>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-lg-2 col-md-4 col-sm-6">
                                     <div className="footer-widget footer-col-3 mb-40">
-                                        <h4 className="footer-widget__title mb-30">My Account</h4>
+                                        <h4 className="footer-widget__title mb-30">About Us</h4>
                                         <div className="footer-widget__links">
                                             <ul>
-                                                <li><Link href="#">Delivery Information</Link></li>
-                                                <li><Link href="#">Privacy Policy</Link></li>
+                                                <li><Link href="#">Meet Our Team</Link></li>
+                                                <li><Link href="#">Our Responsibilities</Link></li>
                                                 <li><Link href="#">Discount</Link></li>
-                                                <li><Link href="#">Custom Service</Link></li>
-                                                <li><Link href="#">Terms  Condition</Link></li>
+                                                <li><Link href="#">Our Moto</Link></li>
+                                                <li><Link href="#">Our Values</Link></li>
                                             </ul>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-lg-2 col-md-4 col-sm-6">
                                     <div className="footer-widget footer-col-4 mb-40">
-                                        <h4 className="footer-widget__title mb-30">Social Network</h4>
+                                        <h4 className="footer-widget__title mb-30">Products</h4>
                                         <div className="footer-widget__links">
                                             <ul>
-                                                <li><Link href="#"><i className="fab fa-facebook-f" />Facebook</Link></li>
+                                                {/* <li><Link href="#"><i className="fab fa-facebook-f" />Facebook</Link></li>
                                                 <li><Link href="#"><i className="fab fa-dribbble" />Dribbble</Link></li>
                                                 <li><Link href="#"><i className="fab fa-twitter" />Twitter</Link></li>
                                                 <li><Link href="#"><i className="fab fa-behance" />Behance</Link></li>
-                                                <li><Link href="#"><i className="fab fa-youtube" />Youtube</Link></li>
+                                                <li><Link href="#"><i className="fab fa-youtube" />Youtube</Link></li> */}
+                                                <li><a href="#">Plants</a></li>
+            <li><a href="#">Furniture</a></li>
+            <li><a href="#">Wall Decors</a></li>
+            <li><a href="#">CookWare</a></li>
+            <li><a href="#">Wooden Shelfs</a></li>
                                             </ul>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-lg-3 col-md-4">
                                     <div className="footer-widget footer-col-5 mb-40">
-                                        <h4 className="footer-widget__title mb-30">Get Newsletter</h4>
+                                        <h4 className="footer-widget__title mb-30">Stay in Touch</h4>
                                         <p>Get on the list and get 10% off your first order!</p>
                                         <div className="footer-widget__newsletter">
                                             <form action="#">
@@ -75,7 +83,7 @@ export default function Footer1() {
                                 </div>
                             </div>
                         </div>
-                        <div className="footer-cta pb-20">
+                        {/* <div className="footer-cta pb-20">
                             <div className="row justify-content-between align-items-center">
                                 <div className="col-xl-6 col-lg-4 col-md-4 col-sm-6">
                                     <div className="footer-cta__contact">
@@ -101,9 +109,9 @@ export default function Footer1() {
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
-                    <div className="footer-copyright footer-bg">
+                    {/* <div className="footer-copyright footer-bg">
                         <div className="container">
                             <div className="row">
                                 <div className="col-xl-6 col-lg-7 col-md-5 col-sm-12">
@@ -119,7 +127,7 @@ export default function Footer1() {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </footer>
 

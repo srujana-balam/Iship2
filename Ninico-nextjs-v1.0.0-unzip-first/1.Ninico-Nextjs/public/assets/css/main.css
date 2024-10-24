@@ -10020,4 +10020,11 @@ only screen and (min-width: 768px) and (max-width: 991px),
     width: 50%;
     height: 50%;
 } */
+
+.footer-area {
+    background-color: #000;
+}
+.footer-widget__title{
+    color: white;
+}
 /*# sourceMappingURL=main.css.map */
