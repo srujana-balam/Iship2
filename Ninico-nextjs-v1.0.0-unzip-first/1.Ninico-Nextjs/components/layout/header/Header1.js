@@ -45,34 +45,6 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isCart
                                         </form>
                                     </div>
                                     <div className="header-meta header-brand d-flex align-items-center">
-                                        {/* <div className="header-meta__lang">
-                                            <ul>
-                                                <li>
-                                                    <Link href="#">
-                                                        <img src="/assets/img/icon/lang-flag.png" alt="flag" />English
-                                                        <span><i className="fal fa-angle-down" /></span>
-                                                    </Link>
-                                                    <ul className="header-meta__lang-submenu">
-                                                        <li>
-                                                            <Link href="#">Arabic</Link>
-                                                        </li>
-                                                        <li>
-                                                            <Link href="#">Spanish</Link>
-                                                        </li>
-                                                        <li>
-                                                            <Link href="#">Mandarin</Link>
-                                                        </li>
-                                                    </ul>
-                                                </li>
-                                            </ul>
-                                        </div> */}
-                                        {/* <div className="header-meta__value mr-15">
-                                            <select>
-                                                <option>USD</option>
-                                                <option>YEAN</option>
-                                                <option>EURO</option>
-                                            </select>
-                                        </div> */}
                                         <div className="header-meta__social d-flex align-items-center ml-25">
                                             <button className="header-cart p-relative tp-cart-toggle" onClick={handleCartSidebar}>
                                                 <i className="fal fa-shopping-cart" />
@@ -188,9 +160,9 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isCart
                                                 </li> */}
                                                 <li className="has-dropdown">
                                                     <Link href="/blog">Customisation</Link>
-                                                    <ul className="submenu">
+                                                    {/* <ul className="submenu">
                                                         <li><Link href="/blog">Blog</Link></li>
-                                                    </ul>
+                                                    </ul> */}
                                                 </li>
                                                 <li><Link href="/contact">Contact us</Link></li>
                                             </ul>
