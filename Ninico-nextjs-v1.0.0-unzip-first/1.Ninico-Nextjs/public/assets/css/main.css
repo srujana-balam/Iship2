@@ -9273,7 +9273,7 @@ only screen and (min-width: 576px) and (max-width: 767px) {
 }
 
 .tpsign__reg:hover {
-    background-color: rgb(15, 212, 10);
+    background-color: green;
 }
 
 /*----------------------------------------*/
