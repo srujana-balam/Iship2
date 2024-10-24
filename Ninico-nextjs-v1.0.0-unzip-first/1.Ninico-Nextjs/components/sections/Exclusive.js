@@ -4,7 +4,7 @@ import Link from "next/link"
 export default function Exclusive() {
     return (
         <>
-            <section className="exclusive-area pb-65">
+            {/* <section className="exclusive-area pb-65">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-8 col-md-8">
@@ -35,7 +35,7 @@ export default function Exclusive() {
                         </div>
                     </div>
                 </div>
-            </section>
+            </section> */}
         </>
     )
 }
