@@ -3,6 +3,7 @@ import Layout from "@/components/layout/Layout"
 import Link from "next/link"
 export default function SignIn() {
 
+
     return (
         <>
             <Layout headerStyle={3} footerStyle={1} breadcrumbTitle="Sign In">
@@ -22,7 +23,7 @@ export default function SignIn() {
                                             <div className="tptrack__item-content">
                                                 <h4 className="tptrack__item-title">Login Here</h4>
                                                 <p>Welcome Back to Home Aura</p>
-                                    
+
                                                 <p>Log in to access your personalized eco-friendly home decor experience.</p>
                                             </div>
                                         </div>
@@ -70,34 +71,34 @@ export default function SignIn() {
                                             </div>
                                         </div>
                                         <div className="tptrack__id mb-10">
-                                            
+
                                             <form action="#">
-                                            {/* <span><i className="fal fa-user" /></span> */}
+                                                {/* <span><i className="fal fa-user" /></span> */}
                                                 <input type="text" placeholder="Username" />
                                             </form>
                                         </div>
                                         <div className="tptrack__id mb-10">
-                                            
+
                                             <form action="#">
                                                 {/* <span><i className="fal fa-envelope" /></span> */}
                                                 <input type="email" placeholder="Email address" />
                                             </form>
                                         </div>
                                         <div className="tptrack__id mb-10">
-                                            
+
                                             <form action="#">
                                                 {/* <span><i className="fa-solid fa-phone-flip"></i></span> */}
                                                 <input type="number" placeholder="Phone Number" />
                                             </form>
                                         </div>
                                         <div className="tptrack__id mb-10">
-                                            
+
                                             <form action="#">
                                                 {/* <span><i className="fa-solid fa-phone-flip fa-rotate-90"></i></span> */}
                                                 <input type="text" placeholder="Address" />
                                             </form>
                                         </div>
-                                        
+
                                         <div className="tptrack__email mb-10">
                                             <form action="#">
                                                 {/* <span><i className="fal fa-key" /></span> */}
@@ -105,7 +106,7 @@ export default function SignIn() {
                                             </form>
                                         </div>
                                         <div className="tptrack__id mb-10">
-                                            
+
                                             <form action="#">
                                                 {/* <span><i className="fa-solid fa-phone-flip fa-rotate-90"></i></span> */}
                                                 <input type="organisation" placeholder="Organisation" />
