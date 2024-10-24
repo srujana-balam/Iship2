@@ -109,7 +109,7 @@ export default function Header5({ scroll, isMobileMenu, handleMobileMenu, isCart
                                                 
                                                 </ul> */}
                                             </li>
-                                            <li><Link href="/contact">Contact</Link></li>
+                                            <li><Link href="/">Contact</Link></li>
                                         </ul>
                                     </nav>
                                 </div>

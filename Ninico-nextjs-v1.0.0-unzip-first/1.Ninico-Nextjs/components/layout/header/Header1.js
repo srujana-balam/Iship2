@@ -159,7 +159,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isCart
                                                     </ul>
                                                 </li> */}
                                                 <li className="has-dropdown">
-                                                    <Link href="/blog">Customisation</Link>
+                                                    <Link href="/">Customisation</Link>
                                                     {/* <ul className="submenu">
                                                         <li><Link href="/blog">Blog</Link></li>
                                                     </ul> */}
