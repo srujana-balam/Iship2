@@ -94,7 +94,7 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isCart
                                                         </ul>
                                                     </li>
                                                     <li className="has-dropdown has-megamenu">
-                                                        <Link href="/about">Customisation</Link>
+                                                        <Link href="/">Customisation</Link>
                                                         
                                                     </li>
                                                     <li><Link href="/contact">Contact</Link></li>
