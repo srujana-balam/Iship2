@@ -10022,7 +10022,7 @@ only screen and (min-width: 768px) and (max-width: 991px),
 } */
 
 .footer-area {
-    background-color: #000;
+    background-color: black;
 }
 .footer-widget__title{
     color: white;

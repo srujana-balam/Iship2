@@ -30,7 +30,7 @@ export default function Footer1() {
                                                 <li><Link href="#">Home</Link></li>
                                                 <li><Link href="#">Shop products</Link></li>
                                                 <li><Link href="/track">Customization</Link></li>
-                                                <li><Link href="/contact">Contacts</Link></li>
+                                                <li><Link href="/contact">Contact Us</Link></li>
                                                 {/* <li><Link href="#">Events</Link></li> */}
                                             </ul>
                                         </div>
@@ -43,7 +43,7 @@ export default function Footer1() {
                                             <ul>
                                                 <li><Link href="#">Meet Our Team</Link></li>
                                                 <li><Link href="#">Our Responsibilities</Link></li>
-                                                <li><Link href="#">Discount</Link></li>
+                                                <li><Link href="#">Our Commitments</Link></li>
                                                 <li><Link href="#">Our Moto</Link></li>
                                                 <li><Link href="#">Our Values</Link></li>
                                             </ul>
