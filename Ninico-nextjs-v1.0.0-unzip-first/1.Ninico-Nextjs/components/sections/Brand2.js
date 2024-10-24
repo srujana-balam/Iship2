@@ -35,7 +35,7 @@ const swiperOptions = {
 export default function Brand2() {
     return (
         <>
-            <section className="brand-area tpbrand black-bg-2 pt-65 pb-60">
+            {/* <section className="brand-area tpbrand black-bg-2 pt-65 pb-60">
                 <div className="container">
                     <div className="row">
                         <div className="col-md-12 col-12">
@@ -67,7 +67,7 @@ export default function Brand2() {
                         </Swiper>
                     </div>
                 </div>
-            </section>
+            </section> */}
         </>
     )
 }

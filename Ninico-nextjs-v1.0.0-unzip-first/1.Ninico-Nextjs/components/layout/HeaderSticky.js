@@ -77,7 +77,7 @@ export default function HeaderSticky({ scroll, isCartSidebar, handleCartSidebar 
                                             </ul>
                                         </li> */}
                                         <li className="has-dropdown">
-                                            <Link href="/blog">Customisation</Link>
+                                            <Link href="">Customisation</Link>
                                             {/* <ul className="submenu">
                                                 <li><Link href="/blog">Blog</Link></li>
                                                 <li><Link href="/blog-details">Blog Details</Link></li>

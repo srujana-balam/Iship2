@@ -21,7 +21,7 @@ export default function Banner2() {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-xl-6 col-lg-12 col-md-12">
+                        {/* <div className="col-xl-6 col-lg-12 col-md-12">
                             <div className="tpbanneritem">
                                 <div className="row">
                                     <div className="col-lg-6 col-md-6 col-sm-6">
@@ -44,7 +44,7 @@ export default function Banner2() {
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </section>
