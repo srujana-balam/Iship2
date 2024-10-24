@@ -56,7 +56,7 @@ export default function SignIn() {
                             <div className="col-lg-6 col-sm-12">
                                 <div className="tptrack__product mb-40">
                                     <div className="tptrack__thumb">
-                                        <img src="signin-image.jpg" alt="" />
+                                        <img src="sign-up-image.jpg" alt="" />
                                     </div>
                                     <div className="tptrack__content grey-bg-3">
                                         <div className="tptrack__item d-flex mb-20">
