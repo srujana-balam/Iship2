@@ -52,27 +52,27 @@ export default function Shop() {
                                         <img src="PlantsSlick.jpg" alt="Plants" />
                                 </SwiperSlide>
                                 <SwiperSlide className="tpshopitem">
-                                        <img src="/assets/img/instagram/instagram-02.jpg" alt="shop-thumb" />
+                                        <img src="WallSlick.jpg" alt="shop-thumb" />
                                     {/* </Link> */}
                                 </SwiperSlide>
                                 <SwiperSlide className="tpshopitem">
                                     {/* <Link className="popup-image" href="#"> */}
-                                        <img src="/assets/img/instagram/instagram-03.jpg" alt="shop-thumb" />
+                                        <img src="WoodMake.jpg" alt="shop-thumb" />
                                     {/* </Link> */}
                                 </SwiperSlide>
                                 <SwiperSlide className="tpshopitem">
                                     {/* <Link className="popup-image" href="#"> */}
-                                        <img src="/assets/img/instagram/instagram-04.jpg" alt="shop-thumb" />
+                                        <img src="PoojaMandir.jpg" alt="shop-thumb" />
                                     {/* </Link> */}
                                 </SwiperSlide>
                                 <SwiperSlide className="tpshopitem">
                                     {/* <Link className="popup-image" href="#"> */}
-                                        <img src="/assets/img/instagram/instagram-05.jpg" alt="shop-thumb" />
+                                        <img src="CookWareSlick.jpg" alt="shop-thumb" />
                                     {/* </Link> */}
                                 </SwiperSlide>
                                 <SwiperSlide className="tpshopitem">
                                     {/* <Link className="popup-image" href="#"> */}
-                                        <img src="/assets/img/instagram/instagram-06.jpg" alt="shop-thumb" />
+                                        <img src="ShelifsSlick.jpg" alt="shop-thumb" />
                                     {/* </Link> */}
                                 </SwiperSlide>
                             </Swiper>
