@@ -6,7 +6,7 @@ export default function Blog4() {
         <>
             <section className="blog-area pb-35 pt-65">
                 <div className="container">
-                    <div className="row">
+                    {/* <div className="row">
                         <div className="col-md-6 col-12">
                             <div className="tpsection mb-40">
                                 <h4 className="tpsection__title">Blog  Insights</h4>
@@ -17,9 +17,9 @@ export default function Blog4() {
                                 <h4 className="blog-btn"><Link href="#">All News <i className="far fa-long-arrow-right" /></Link></h4>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                     <div className="row gx-6">
-                        <div className="col-lg-3 col-md-6 col-sm-6 tpblogborder mb-30">
+                        {/* <div className="col-lg-3 col-md-6 col-sm-6 tpblogborder mb-30">
                             <div className="blogitem">
                                 <div className="blogitem__thumb fix mb-20">
                                     <Link href="/blog-details"><img src="assets/img/blog/blog-thumb-01.jpg" alt="blog-bg" /></Link>
@@ -43,9 +43,9 @@ export default function Blog4() {
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> */}
                         <div className="col-lg-3 col-md-6 col-sm-6 tpblogborder mb-30">
-                            <div className="blogitem">
+                            {/* <div className="blogitem">
                                 <div className="blogitem__thumb fix mb-20">
                                     <Link href="/blog-details"><img src="assets/img/blog/blog-thumb-02.jpg" alt="blog-bg" /></Link>
                                 </div>
@@ -67,10 +67,10 @@ export default function Blog4() {
                                         <Link href="/blog-details">Read More</Link>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                         <div className="col-lg-3 col-md-6 col-sm-6 tpblogborder mb-30">
-                            <div className="blogitem">
+                            {/* <div className="blogitem">
                                 <div className="blogitem__thumb fix mb-20">
                                     <Link href="/blog-details"><img src="assets/img/blog/blog-thumb-03.jpg" alt="blog-bg" /></Link>
                                 </div>
@@ -92,10 +92,10 @@ export default function Blog4() {
                                         <Link href="/blog-details">Read More</Link>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                         <div className="col-lg-3 col-md-6 col-sm-6 mb-30">
-                            <div className="blogitem">
+                            {/* <div className="blogitem">
                                 <div className="blogitem__thumb fix mb-20">
                                     <Link href="/blog-details"><img src="assets/img/blog/blog-thumb-04.jpg" alt="blog-bg" /></Link>
                                 </div>
@@ -117,8 +117,8 @@ export default function Blog4() {
                                         <Link href="/blog-details">Read More</Link>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
+                            </div>*/}
+                        </div> 
                     </div>
                 </div>
             </section>
