@@ -21,7 +21,9 @@ export default function SignIn() {
                                             </div>
                                             <div className="tptrack__item-content">
                                                 <h4 className="tptrack__item-title">Login Here</h4>
-                                                <p>Your personal data will be used to support your experience throughout this website, to manage access to your account.</p>
+                                                <p>Welcome Back to Home Aura</p>
+                                    
+                                                <p>Log in to access your personalized eco-friendly home decor experience.</p>
                                             </div>
                                         </div>
                                         <div className="tptrack__id mb-10">
@@ -63,10 +65,12 @@ export default function SignIn() {
                                             </div>
                                             <div className="tptrack__item-content">
                                                 <h4 className="tptrack__item-title">Sign Up</h4>
-                                                <p>Your personal data will be used to support your experience throughout this website, to manage access to your account.</p>
+                                                <p>Welcome to Home Aura</p>
+                                                <p>Create your account to start designing your eco-friendly space!</p>
                                             </div>
                                         </div>
                                         <div className="tptrack__id mb-10">
+                                            
                                             <form action="#">
                                                 <span><i className="fal fa-envelope" /></span>
                                                 <input type="email" placeholder="Email address" />
