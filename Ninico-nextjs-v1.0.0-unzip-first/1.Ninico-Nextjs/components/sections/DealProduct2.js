@@ -13,7 +13,7 @@ export default function DealProduct2() {
                             <div className="col-lg-6 col-md-12">
                                 <div className="tpdealproduct">
                                     <div className="tpdealproduct__thumb p-relative text-center">
-                                        <img src="Hemp2.jpg" alt="Hemp Plant" />
+                                        <img src="Hemp2.jpg" alt="Hemp Plant" className="hempPlant" />
                                         <div className="tpdealproduct__offer">
                                             <h5 className="tpdealproduct__offer-price"><span>From</span>120/-</h5>
                                         </div>
