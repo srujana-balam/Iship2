@@ -49,7 +49,7 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isCart
                         <div className="row align-items-center">
                             <div className="col-xl-2 col-lg-3">
                                 <div className="logo">
-                                    <Link href="/"><img src="/assets/img/logo/logo.png" alt="logo" /></Link>
+                                    <Link href="/"><img src="MainLogo.jpg" alt="logo" className="mainlogo" /></Link>
                                 </div>
                             </div>
                             <div className="col-xl-10 col-lg-9">
