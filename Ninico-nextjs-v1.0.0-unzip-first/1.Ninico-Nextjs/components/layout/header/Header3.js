@@ -22,10 +22,10 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isCart
                                     <Link href="#">Shop Now<i className="fal fa-long-arrow-right" /></Link>
                                 </div> */}
                             </div>
-                            <div className="col-xl-5 d-none d-xl-block">
+                           {/* <div className="col-xl-5 d-none d-xl-block">
                                 <div className="headertoplag d-flex align-items-center justify-content-end">
                                     <div className="headertoplag__lang">
-                                        <ul>
+                                         <ul>
                                             <li>
                                                 <Link href="#"><i className="fal fa-user" /> Account</Link>
                                                 <Link className="order-tick" href="#"><i className="fal fa-plane-departure" />Track Your Order</Link>
@@ -40,7 +40,7 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isCart
                                         <Link href="#"><i className="fab fa-linkedin" /></Link>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
