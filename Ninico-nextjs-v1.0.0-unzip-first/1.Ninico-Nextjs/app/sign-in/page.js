@@ -72,14 +72,43 @@ export default function SignIn() {
                                         <div className="tptrack__id mb-10">
                                             
                                             <form action="#">
-                                                <span><i className="fal fa-envelope" /></span>
+                                            {/* <span><i className="fal fa-user" /></span> */}
+                                                <input type="text" placeholder="Username" />
+                                            </form>
+                                        </div>
+                                        <div className="tptrack__id mb-10">
+                                            
+                                            <form action="#">
+                                                {/* <span><i className="fal fa-envelope" /></span> */}
                                                 <input type="email" placeholder="Email address" />
                                             </form>
                                         </div>
+                                        <div className="tptrack__id mb-10">
+                                            
+                                            <form action="#">
+                                                <span><i className="fa-solid fa-phone-flip"></i></span>
+                                                <input type="number" placeholder="Phone Number" />
+                                            </form>
+                                        </div>
+                                        <div className="tptrack__id mb-10">
+                                            
+                                            <form action="#">
+                                                <span><i className="fa-solid fa-phone-flip fa-rotate-90"></i></span>
+                                                <input type="text" placeholder="Address" />
+                                            </form>
+                                        </div>
+                                        
                                         <div className="tptrack__email mb-10">
                                             <form action="#">
-                                                <span><i className="fal fa-key" /></span>
+                                                {/* <span><i className="fal fa-key" /></span> */}
                                                 <input type="text" placeholder="Password" />
+                                            </form>
+                                        </div>
+                                        <div className="tptrack__id mb-10">
+                                            
+                                            <form action="#">
+                                                <span><i className="fa-solid fa-phone-flip fa-rotate-90"></i></span>
+                                                <input type="organisation" placeholder="Organisation" />
                                             </form>
                                         </div>
                                         <div className="tpsign__account">
