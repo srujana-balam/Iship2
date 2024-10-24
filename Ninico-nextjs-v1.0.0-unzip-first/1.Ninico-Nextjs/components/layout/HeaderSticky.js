@@ -23,7 +23,7 @@ export default function HeaderSticky({ scroll, isCartSidebar, handleCartSidebar 
                                                 <li><Link href="/">Kitchen Home</Link></li>
                                                 <li><Link href="/index-2">Lamps Home</Link></li>
                                                 <li><Link href="/index-3">Furniture Home</Link></li>
-                                                <li><Link href="/index-4">Wall Home</Link></li>
+                                                {/* <li><Link href="/index-4">Wall Home</Link></li> */}
                                                 {/* <li><Link href="/index-5">Food Grocery</Link></li> */}
                                             </ul>
                                         </li>
