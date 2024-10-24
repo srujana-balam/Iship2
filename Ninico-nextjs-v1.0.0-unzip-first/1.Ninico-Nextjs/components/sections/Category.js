@@ -16,7 +16,7 @@ export default function Category() {
                     <div className="custom-row category-border pb-45 justify-content-xl-between">
                         <div className="tpcategory mb-40">
                             <div className="tpcategory__icon p-relative">
-                                <img src="/assets/img/svg/cat01.svg" alt="" className="fn__svg" />
+                                <img src="Sustainability.png" alt="" className="fn__svg" />
                                 <span>20</span>
                             </div>
                             <div className="tpcategory__content">
@@ -25,7 +25,7 @@ export default function Category() {
                         </div>
                         <div className="tpcategory mb-40">
                             <div className="tpcategory__icon">
-                                <img src="/assets/img/svg/cat02.svg" alt="" className="fn__svg" />
+                                <img src="Durability.png" alt="" className="fn__svg" />
                                 <span>12</span>
                             </div>
                             <div className="tpcategory__content">
@@ -34,7 +34,7 @@ export default function Category() {
                         </div>
                         <div className="tpcategory mb-40">
                             <div className="tpcategory__icon">
-                                <img src="/assets/img/svg/cat03.svg" alt="" className="fn__svg" />
+                                <img src="Eco-friendly_Packing.png" alt="" className="fn__svg" />
                                 <span>03</span>
                             </div>
                             <div className="tpcategory__content">
@@ -43,7 +43,7 @@ export default function Category() {
                         </div>
                         <div className="tpcategory mb-40">
                             <div className="tpcategory__icon">
-                                <img src="/assets/img/svg/cat04.svg" alt="" className="fn__svg" />
+                                <img src="REcycle.png" alt="" className="fn__svg" />
                                 <span>09</span>
                             </div>
                             <div className="tpcategory__content">
@@ -52,7 +52,7 @@ export default function Category() {
                         </div>
                         <div className="tpcategory mb-40">
                             <div className="tpcategory__icon">
-                                <img src="/assets/img/svg/cat05.svg" alt="" className="fn__svg" />
+                                <img src="Non-Toxic.png" alt="" className="fn__svg" />
                                 <span>10</span>
                             </div>
                             <div className="tpcategory__content">
@@ -61,7 +61,7 @@ export default function Category() {
                         </div>
                         <div className="tpcategory mb-40">
                             <div className="tpcategory__icon">
-                                <img src="/assets/img/svg/cat06.svg" alt="" className="fn__svg" />
+                                <img src="Waste_REduction.png" alt="" className="fn__svg" />
                                 <span>05</span>
                             </div>
                             <div className="tpcategory__content">
