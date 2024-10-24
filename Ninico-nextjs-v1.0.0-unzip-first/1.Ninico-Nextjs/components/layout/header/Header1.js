@@ -18,10 +18,10 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isCart
                     <div className="container">
                         <div className="row">
                             <div className="col-12">
-                                <div className="header-welcome-text text-start ">
+                                {/* <div className="header-welcome-text text-start ">
                                     <span>Welcome to our international shop! Enjoy free shipping on orders $100  up.</span>
                                     <Link href="/shop">Shop Now <i className="fal fa-long-arrow-right" /> </Link>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </div>
@@ -31,7 +31,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isCart
                         <div className="row align-items-center">
                             <div className="col-xl-2 col-lg-3">
                                 <div className="logo">
-                                    <Link href="/"><img src="/assets/img/logo/logo.png" alt="logo" /></Link>
+                                    <Link href="/"><img src="HoeAuroLogo.png" alt="logo" /></Link>
                                 </div>
                             </div>
                             <div className="col-xl-10 col-lg-9">
@@ -45,7 +45,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isCart
                                         </form>
                                     </div>
                                     <div className="header-meta header-brand d-flex align-items-center">
-                                        <div className="header-meta__lang">
+                                        {/* <div className="header-meta__lang">
                                             <ul>
                                                 <li>
                                                     <Link href="#">
@@ -65,14 +65,14 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isCart
                                                     </ul>
                                                 </li>
                                             </ul>
-                                        </div>
-                                        <div className="header-meta__value mr-15">
+                                        </div> */}
+                                        {/* <div className="header-meta__value mr-15">
                                             <select>
                                                 <option>USD</option>
                                                 <option>YEAN</option>
                                                 <option>EURO</option>
                                             </select>
-                                        </div>
+                                        </div> */}
                                         <div className="header-meta__social d-flex align-items-center ml-25">
                                             <button className="header-cart p-relative tp-cart-toggle" onClick={handleCartSidebar}>
                                                 <i className="fal fa-shopping-cart" />
