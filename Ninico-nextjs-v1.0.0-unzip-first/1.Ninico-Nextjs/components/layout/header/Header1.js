@@ -117,13 +117,13 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isCart
                                                 <li><Link href="/shop"><i className="fal fa-crown" /> Cosmetics</Link></li>
                                                 <li><Link href="/shop"><i className="fal fa-gift" /> Silk Accessories</Link></li>
                                             </ul>
-                                            <div className="daily-offer">
+                                            {/* <div className="daily-offer">
                                                 <ul>
                                                     <li><Link href="/shop">Value of the Day</Link></li>
                                                     <li><Link href="/shop">Top 100 Offers</Link></li>
                                                     <li><Link href="/shop">New Arrivals</Link></li>
                                                 </ul>
-                                            </div>
+                                            </div> */}
                                         </div>
                                     </div>
                                 </div>

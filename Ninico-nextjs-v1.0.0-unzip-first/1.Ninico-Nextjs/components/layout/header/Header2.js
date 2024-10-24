@@ -13,10 +13,10 @@ export default function Header2({ scroll, isMobileMenu, handleMobileMenu, isCart
                     <div className="container">
                         <div className="row align-items-center">
                             <div className="col-xl-8 col-lg-12 col-md-12">
-                                <div className="header-welcome-text ">
+                                {/* <div className="header-welcome-text ">
                                     <span>Welcome to our international shop! Enjoy free shipping on orders $100  up.</span>
                                     <Link href="/shop">Shop Now<i className="fal fa-long-arrow-right" /></Link>
-                                </div>
+                                </div> */}
                             </div>
                             <div className="col-xl-4 d-none d-xl-block">
                                 <div className="headertoplag d-flex align-items-center justify-content-end">
