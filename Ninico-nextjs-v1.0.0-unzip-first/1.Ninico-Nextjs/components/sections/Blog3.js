@@ -15,7 +15,7 @@ export default function Blog3() {
                     </div>
                     <div className="row gx-6">
                         <div className="col-lg-3 col-md-6 col-sm-6 tpblogborder mb-20">
-                            <div className="blogitem">
+                            {/* <div className="blogitem">
                                 <div className="blogitem__thumb fix mb-20">
                                     <Link href="/blog-details"><img src="assets/img/blog/blog-thumb-05.jpg" alt="blog-bg" /></Link>
                                 </div>
@@ -34,10 +34,10 @@ export default function Blog3() {
                                         <Link href="/blog-details">Here is why you cannot miss EORS 15</Link>
                                     </h4>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                         <div className="col-lg-3 col-md-6 col-sm-6 tpblogborder mb-20">
-                            <div className="blogitem">
+                            {/* <div className="blogitem">
                                 <div className="blogitem__thumb fix mb-20">
                                     <Link href="/blog-details"><img src="assets/img/blog/blog-thumb-06.jpg" alt="blog-bg" /></Link>
                                 </div>
@@ -56,10 +56,10 @@ export default function Blog3() {
                                         <Link href="/blog-details">Myntra launches international brand DeFacto</Link>
                                     </h4>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                         <div className="col-lg-3 col-md-6 col-sm-6 tpblogborder mb-20">
-                            <div className="blogitem">
+                            {/* <div className="blogitem">
                                 <div className="blogitem__thumb fix mb-20">
                                     <Link href="/blog-details"><img src="assets/img/blog/blog-thumb-07.jpg" alt="blog-bg" /></Link>
                                 </div>
@@ -78,10 +78,10 @@ export default function Blog3() {
                                         <Link href="/blog-details">Ruskin Bond Shares His Life Experiences</Link>
                                     </h4>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                         <div className="col-lg-3 col-md-6 col-sm-6 mb-20">
-                            <div className="blogitem">
+                            {/* <div className="blogitem">
                                 <div className="blogitem__thumb fix mb-20">
                                     <Link href="/blog-details"><img src="assets/img/blog/blog-thumb-08.jpg" alt="blog-bg" /></Link>
                                 </div>
@@ -100,7 +100,7 @@ export default function Blog3() {
                                         <Link href="/blog-details">The House That Will Instantly Update</Link>
                                     </h4>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>

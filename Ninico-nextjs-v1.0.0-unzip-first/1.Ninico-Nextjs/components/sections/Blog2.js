@@ -15,7 +15,7 @@ export default function Blog2() {
                     </div>
                     <div className="row gx-6">
                         <div className="col-lg-3 col-md-6 col-sm-6 tpblogborder mb-30">
-                            <div className="blogitem">
+                            {/* <div className="blogitem">
                                 <div className="blogitem__thumb fix mb-20">
                                     <Link href="/blog-details"><img src="/assets/img/blog/blog-thumb-01.jpg" alt="blog-bg" /></Link>
                                 </div>
@@ -37,10 +37,10 @@ export default function Blog2() {
                                         <Link href="/blog-details">Read More</Link>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                         <div className="col-lg-3 col-md-6 col-sm-6 tpblogborder mb-30">
-                            <div className="blogitem">
+                            {/* <div className="blogitem">
                                 <div className="blogitem__thumb fix mb-20">
                                     <Link href="/blog-details"><img src="/assets/img/blog/blog-thumb-02.jpg" alt="blog-bg" /></Link>
                                 </div>
@@ -62,10 +62,10 @@ export default function Blog2() {
                                         <Link href="/blog-details">Read More</Link>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                         <div className="col-lg-3 col-md-6 col-sm-6 tpblogborder mb-30">
-                            <div className="blogitem">
+                            {/* <div className="blogitem">
                                 <div className="blogitem__thumb fix mb-20">
                                     <Link href="/blog-details"><img src="/assets/img/blog/blog-thumb-03.jpg" alt="blog-bg" /></Link>
                                 </div>
@@ -87,10 +87,10 @@ export default function Blog2() {
                                         <Link href="/blog-details">Read More</Link>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                         <div className="col-lg-3 col-md-6 col-sm-6 mb-30">
-                            <div className="blogitem">
+                            {/* <div className="blogitem">
                                 <div className="blogitem__thumb fix mb-20">
                                     <Link href="/blog-details"><img src="/assets/img/blog/blog-thumb-04.jpg" alt="blog-bg" /></Link>
                                 </div>
@@ -112,7 +112,7 @@ export default function Blog2() {
                                         <Link href="/blog-details">Read More</Link>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                 </div>
