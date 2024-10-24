@@ -17,10 +17,10 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isCart
                     <div className="container">
                         <div className="row">
                             <div className="col-xl-7 col-lg-12 col-md-12 ">
-                                <div className="header-welcome-text">
+                                {/* <div className="header-welcome-text">
                                     <span>Welcome to our international shop! Enjoy free shipping on orders $100  up.</span>
                                     <Link href="#">Shop Now<i className="fal fa-long-arrow-right" /></Link>
-                                </div>
+                                </div> */}
                             </div>
                             <div className="col-xl-5 d-none d-xl-block">
                                 <div className="headertoplag d-flex align-items-center justify-content-end">
