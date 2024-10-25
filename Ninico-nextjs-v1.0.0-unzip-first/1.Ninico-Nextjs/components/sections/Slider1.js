@@ -40,13 +40,13 @@ export default function Slider1() {
                                             <div className="tp-slide-item">
                                                 <div className="tp-slide-item__content">
                                                     <h4 className="tp-slide-item__sub-title">Accessories</h4>
-                                                    <h3 className="tp-slide-item__title mb-25">Up To
-                                                        <i>40% Off
+                                                    <h3 className="tp-slide-item__title mb-25">Lamps
+                                                        <i>
                                                             <img src="/assets/img/icon/title-shape-02.jpg" alt="" />
                                                         </i>
-                                                        latest Creations
+                                                       
                                                     </h3>
-                                                    <Link className="tp-slide-item__slide-btn tp-btn" href="/shop">Shop Now <i className="fal fa-long-arrow-right" /></Link>
+
                                                 </div>
                                                 <div className="tp-slide-item__img">
                                                     <img src="/assets/img/slider/banner-1.jpg" alt="" />
@@ -57,9 +57,8 @@ export default function Slider1() {
                                             <div className="tp-slide-item">
                                                 <div className="tp-slide-item__content">
                                                     <h4 className="tp-slide-item__sub-title">Accessories</h4>
-                                                    <h3 className="tp-slide-item__title mb-25">Up To <i>35% Off <img src="/assets/img/icon/title-shape-02.jpg" alt="" /></i> latest
-                                                        Creations</h3>
-                                                    <Link className="tp-slide-item__slide-btn tp-btn" href="/shop">Shop Now <i className="fal fa-long-arrow-right" /></Link>
+                                                    <h3 className="tp-slide-item__title mb-25">Wall<i> Hangings <img src="/assets/img/icon/title-shape-02.jpg" alt="" /></i></h3>
+                                                    
                                                 </div>
                                                 <div className="tp-slide-item__img">
                                                     <img src="/assets/img/slider/banner-2.jpg" alt="" />
@@ -70,9 +69,7 @@ export default function Slider1() {
                                             <div className="tp-slide-item">
                                                 <div className="tp-slide-item__content">
                                                     <h4 className="tp-slide-item__sub-title">Accessories</h4>
-                                                    <h3 className="tp-slide-item__title mb-25">Up To <i>45% Off <img src="/assets/img/icon/title-shape-02.jpg" alt="" /></i> latest
-                                                        Creations</h3>
-                                                    <Link className="tp-slide-item__slide-btn tp-btn" href="/shop">Shop Now <i className="fal fa-long-arrow-right" /></Link>
+                                                    <h3 className="tp-slide-item__title mb-25">Plants<i><img src="/assets/img/icon/title-shape-02.jpg" alt="" /></i></h3>
                                                 </div>
                                                 <div className="tp-slide-item__img">
                                                     <img src="/assets/img/slider/banner-3.jpg" alt="" />
@@ -93,7 +90,7 @@ export default function Slider1() {
                                                 <img src="/assets/img/slider/banner-slider-01.jpg" alt="" />
                                                 <div className="tpslider-banner__content">
                                                     <span className="tpslider-banner__sub-title">Hand made</span>
-                                                    <h4 className="tpslider-banner__title">New Modern  Stylist <br /> Crafts</h4>
+                                                    <h4 className="tpslider-banner__title">Kitchen Wear</h4>
                                                 </div>
                                             </div>
                                         </Link>
@@ -106,8 +103,7 @@ export default function Slider1() {
                                                 <img src="/assets/img/slider/banner-slider-02.jpg" alt="" />
                                                 <div className="tpslider-banner__content">
                                                     <span className="tpslider-banner__sub-title">Popular</span>
-                                                    <h4 className="tpslider-banner__title">Energy with our <br /> newest
-                                                        collection</h4>
+                                                    <h4 className="tpslider-banner__title">Wall Hangings</h4>
                                                 </div>
                                             </div>
                                         </Link>
