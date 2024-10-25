@@ -2,6 +2,7 @@ const express = require('express');
 const app = express();
 app.use(express.json());
 const UserDetails = require("../Models/LoginModel");
+const Contact = require("../Models/contact_supportModel");
 const nodemailer = require('nodemailer');
 const crypto = require('crypto');
 
@@ -27,7 +28,6 @@ const Login = async (req, res) => {
       res.json("Not Exist");
     }
 }
-
 const SignUp = async (req, res) => {
   console.log(req.body);
   const { username, email, phonenumber, address, organisation, password } = req.body;
@@ -56,7 +56,7 @@ const ForgotPassword = async (req, res) => {
 
     const resetToken = crypto.randomBytes(20).toString('hex');
     user.resetPasswordToken = resetToken;
-    user.resetPasswordExpires = Date.now() + 3600000; // 1 hour
+    user.resetPasswordExpires = Date.now() + 3600000;
     await user.save();
 
     const transporter = nodemailer.createTransport({
@@ -113,7 +113,28 @@ const ResetPassword = async (req, res) => {
     res.status(500).json({ message: "Server error" });
   }
 };
-
+const ContactSupport = async (req, res) => {
+  if (req.method === "POST") {
+    const { fullname, email, phonenumber, subject, Emessage } = req.body;
+    try {
+      const newComplaint = {
+        fullname,
+        email,
+        phonenumber,
+        subject,
+        Emessage,
+      };
+      await Contact.insertMany([newComplaint]);
+      res.status(200).json({ message: "Thank you for your feedback!" });
+    } catch (error) {
+      console.error("Error saving complaint:", error);
+      res.status(500).json({ message: "Error saving complaint. Please try again later." });
+    }
+  } else {
+    res.status(405).json({ message: "Method not allowed" });
+  }
+};
+exports.ContactSupport=ContactSupport;
 exports.Test = Controller;
 exports.Login = Login;
 exports.SignUp = SignUp;
