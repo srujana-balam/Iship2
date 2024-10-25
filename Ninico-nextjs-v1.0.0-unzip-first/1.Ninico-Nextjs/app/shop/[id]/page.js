@@ -100,7 +100,7 @@ const ShopSingleDynamicV1 = () => {
                                         <span className="tpproduct-details__stock">In Stock</span>
                                     </div>
                                     <div className="tpproduct-details__price mb-30">
-                                        <del>$9.35</del>
+                                        <del>$1.35</del>
                                         <span>{product?.price?.max} $</span>
                                     </div>
                                     <div className="tpproduct-details__pera">

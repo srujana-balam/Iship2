@@ -138,8 +138,8 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isCart
                                             <li><Link href="/shop-2"><i className="fal fa-basketball-ball" />Kitchen Wear</Link></li>
                                         </ul>
                                         <div className="coupon-offer d-flex align-items-center justify-content-between">
-                                            <span>Coupon: <Link href="/shop">Offers50</Link></span>
-                                            <Link href="#"> <i className="fal fa-copy" /></Link>
+                                            {/* <span>Coupon: <Link href="/shop">Offers50</Link></span>
+                                            <Link href="#"> <i className="fal fa-copy" /></Link> */}
                                         </div>
                                     </div>
                                 </div>
@@ -151,7 +151,7 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isCart
                                             <li className="has-dropdown">
                                                 <Link href="/">Home</Link>
                                                 <ul className="submenu">
-                                                    <li><Link href="/">Kitchen  Home</Link></li>
+                                                    <li><Link href="/"> Home</Link></li>
                                                     <li><Link href="/index-2">Lamps Home</Link></li>
                                                     <li><Link href="/index-3">Furniture Home</Link></li>
                                                   
@@ -161,10 +161,10 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isCart
                                                 <Link href="/shop">Shop</Link>
                                                 <ul className="submenu">
                                                     <li><Link href="/shop">Shop</Link></li>
-                                                    <li><Link href="/cart">Cart</Link></li>
+                                                    {/* <li><Link href="/cart">Cart</Link></li>
                                                     <li><Link href="/sign-in">Sign In</Link></li>
                                                     <li><Link href="/checkout">Checkout</Link></li>
-                                                    <li><Link href="/wishlist">Wishlist</Link></li>
+                                                    <li><Link href="/wishlist">Wishlist</Link></li> */}
                                                  </ul>
                                             </li>
                                             {/*<li className="has-dropdown has-megamenu">
