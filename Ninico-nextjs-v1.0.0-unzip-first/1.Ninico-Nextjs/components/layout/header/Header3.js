@@ -218,21 +218,21 @@ export default function Header3({ scroll, isMobileMenu, handleMobileMenu, isCart
                                         <li>
                                             <div className="menu-contact__item">
                                                 <div className="menu-contact__icon">
-                                                    <i className="fal fa-phone" />
+                                                    {/* <i className="fal fa-phone" /> */}
                                                 </div>
-                                                <div className="menu-contact__info">
+                                                {/* <div className="menu-contact__info">
                                                     <Link href="/tel:0123456">7842727933</Link>
-                                                </div>
+                                                </div> */}
                                             </div>
                                         </li>
                                         <li>
                                             <div className="menu-contact__item">
                                                 <div className="menu-contact__icon">
-                                                    <i className="fal fa-map-marker-alt" />
+                                                    {/* <i className="fal fa-map-marker-alt" /> */}
                                                 </div>
-                                                <div className="menu-contact__info">
+                                                {/* <div className="menu-contact__info">
                                                     <Link href="/shop-location">Find Store</Link>
-                                                </div>
+                                                </div> */}
                                             </div>
                                         </li>
                                     </ul>
