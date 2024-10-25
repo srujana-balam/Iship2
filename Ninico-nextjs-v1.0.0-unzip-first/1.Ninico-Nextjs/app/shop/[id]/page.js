@@ -71,7 +71,7 @@ const ShopSingleDynamicV1 = () => {
     return (
         <>
             <Layout headerStyle={3} footerStyle={1} breadcrumbTitle="Shop Details">
-                {/* <section className="product-area pt-80 pb-50">
+                <section className="product-area pt-80 pb-50">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-5 col-md-12">
@@ -100,7 +100,7 @@ const ShopSingleDynamicV1 = () => {
                                         <span className="tpproduct-details__stock">In Stock</span>
                                     </div>
                                     <div className="tpproduct-details__price mb-30">
-                                        <del>$9.35</del>
+                                        <del>$1.35</del>
                                         <span>{product?.price?.max} $</span>
                                     </div>
                                     <div className="tpproduct-details__pera">
@@ -619,7 +619,7 @@ const ShopSingleDynamicV1 = () => {
                             </Swiper>
                         </div>
                     </div>
-                </div> */}
+                </div>
             </Layout>
         </>
     )

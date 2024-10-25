@@ -46,7 +46,7 @@ export default function ShopDetails2() {
     return (
         <>
             <Layout headerStyle={3} footerStyle={2} breadcrumbTitle="Shop Details 2">
-                {/* <section className="product-area pt-80 pb-50">
+                <section className="product-area pt-80 pb-50">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-5 col-md-12">
@@ -588,7 +588,7 @@ export default function ShopDetails2() {
                             </Swiper>
                         </div>
                     </div>
-                </div> */}
+                </div>
             </Layout>
         </>
     )
