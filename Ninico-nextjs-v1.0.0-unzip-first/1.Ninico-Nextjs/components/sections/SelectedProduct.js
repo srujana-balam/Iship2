@@ -12,7 +12,7 @@ export default function SelectedProduct() {
                                 <h4 className="tpselectproduct__heading mb-35">Biscuit  Snacks</h4>
                                 <div className="tpselectproduct__item d-flex align-items-center mb-25">
                                     <div className="tpselectproduct__thumb mr-25">
-                                        <img src="assets/img/product/home-five/product-1.jpg" alt="thumb" />
+                                        <img src="localhost:1000/assets/img/product/home-five/product-1.jpg" alt="thumb" />
                                     </div>
                                     <div className="tpselectproduct__content">
                                         <div className="tpselectproduct__rating">
@@ -28,7 +28,7 @@ export default function SelectedProduct() {
                                 </div>
                                 <div className="tpselectproduct__item d-flex align-items-center mb-25">
                                     <div className="tpselectproduct__thumb mr-25">
-                                        <img src="assets/img/product/home-five/product-3.jpg" alt="thumb" />
+                                        <img src="localhost:1000/assets/img/product/home-five/product-3.jpg" alt="thumb" />
                                     </div>
                                     <div className="tpselectproduct__content">
                                         <div className="tpselectproduct__rating">
@@ -44,7 +44,7 @@ export default function SelectedProduct() {
                                 </div>
                                 <div className="tpselectproduct__item d-flex align-items-center mb-25">
                                     <div className="tpselectproduct__thumb mr-25">
-                                        <img src="assets/img/product/home-five/product-5.jpg" alt="thumb" />
+                                        <img src="localhost:1000/assets/img/product/home-five/product-5.jpg" alt="thumb" />
                                     </div>
                                     <div className="tpselectproduct__content">
                                         <div className="tpselectproduct__rating">
@@ -60,7 +60,7 @@ export default function SelectedProduct() {
                                 </div>
                                 <div className="tpselectproduct__item d-flex align-items-center mb-25">
                                     <div className="tpselectproduct__thumb mr-25">
-                                        <img src="assets/img/product/home-five/product-7.jpg" alt="thumb" />
+                                        <img src="localhost:1000/assets/img/product/home-five/product-7.jpg" alt="thumb" />
                                     </div>
                                     <div className="tpselectproduct__content">
                                         <div className="tpselectproduct__rating">
@@ -81,7 +81,7 @@ export default function SelectedProduct() {
                                 <h4 className="tpselectproduct__heading mb-35">Chocolate</h4>
                                 <div className="tpselectproduct__item d-flex align-items-center mb-25">
                                     <div className="tpselectproduct__thumb mr-25">
-                                        <img src="assets/img/product/home-five/product-9.jpg" alt="thumb" />
+                                        <img src="localhost:1000/assets/img/product/home-five/product-9.jpg" alt="thumb" />
                                     </div>
                                     <div className="tpselectproduct__content">
                                         <div className="tpselectproduct__rating">
@@ -97,7 +97,7 @@ export default function SelectedProduct() {
                                 </div>
                                 <div className="tpselectproduct__item d-flex align-items-center mb-25">
                                     <div className="tpselectproduct__thumb mr-25">
-                                        <img src="assets/img/product/home-five/product-11.jpg" alt="thumb" />
+                                        <img src="localhost:1000/assets/img/product/home-five/product-11.jpg" alt="thumb" />
                                     </div>
                                     <div className="tpselectproduct__content">
                                         <div className="tpselectproduct__rating">
@@ -113,7 +113,7 @@ export default function SelectedProduct() {
                                 </div>
                                 <div className="tpselectproduct__item d-flex align-items-center mb-25">
                                     <div className="tpselectproduct__thumb mr-25">
-                                        <img src="assets/img/product/home-five/product-13.jpg" alt="thumb" />
+                                        <img src="localhost:1000/assets/img/product/home-five/product-13.jpg" alt="thumb" />
                                     </div>
                                     <div className="tpselectproduct__content">
                                         <div className="tpselectproduct__rating">
@@ -166,7 +166,7 @@ export default function SelectedProduct() {
                                 </div>
                                 <div className="tpselectproduct__item d-flex align-items-center mb-25">
                                     <div className="tpselectproduct__thumb mr-25">
-                                        <img src="assets/img/product/home-five/product-19.jpg" alt="thumb" />
+                                        <img src="localhost:1000/assets/img/product/home-five/product-19.jpg" alt="thumb" />
                                     </div>
                                     <div className="tpselectproduct__content">
                                         <div className="tpselectproduct__rating">
@@ -182,7 +182,7 @@ export default function SelectedProduct() {
                                 </div>
                                 <div className="tpselectproduct__item d-flex align-items-center mb-25">
                                     <div className="tpselectproduct__thumb mr-25">
-                                        <img src="assets/img/product/home-five/product-21.jpg" alt="thumb" />
+                                        <img src="localhost:1000/assets/img/product/home-five/product-21.jpg" alt="thumb" />
                                     </div>
                                     <div className="tpselectproduct__content">
                                         <div className="tpselectproduct__rating">
@@ -198,7 +198,7 @@ export default function SelectedProduct() {
                                 </div>
                                 <div className="tpselectproduct__item d-flex align-items-center mb-25">
                                     <div className="tpselectproduct__thumb mr-25">
-                                        <img src="assets/img/product/home-five/product-22.jpg" alt="thumb" />
+                                        <img src="localhost:1000/assets/img/product/home-five/product-22.jpg" alt="thumb" />
                                     </div>
                                     <div className="tpselectproduct__content">
                                         <div className="tpselectproduct__rating">
@@ -219,7 +219,7 @@ export default function SelectedProduct() {
                                 <h4 className="tpselectproduct__heading mb-35">Cake  Honey</h4>
                                 <div className="tpselectproduct__item d-flex align-items-center mb-25">
                                     <div className="tpselectproduct__thumb mr-25">
-                                        <img src="assets/img/product/home-five/product-23.jpg" alt="thumb" />
+                                        <img src="localhost:1000/assets/img/product/home-five/product-23.jpg" alt="thumb" />
                                     </div>
                                     <div className="tpselectproduct__content">
                                         <div className="tpselectproduct__rating">
@@ -235,7 +235,7 @@ export default function SelectedProduct() {
                                 </div>
                                 <div className="tpselectproduct__item d-flex align-items-center mb-25">
                                     <div className="tpselectproduct__thumb mr-25">
-                                        <img src="assets/img/product/home-five/product-24.jpg" alt="thumb" />
+                                        <img src="localhost:1000/assets/img/product/home-five/product-24.jpg" alt="thumb" />
                                     </div>
                                     <div className="tpselectproduct__content">
                                         <div className="tpselectproduct__rating">
@@ -251,7 +251,7 @@ export default function SelectedProduct() {
                                 </div>
                                 <div className="tpselectproduct__item d-flex align-items-center mb-25">
                                     <div className="tpselectproduct__thumb mr-25">
-                                        <img src="assets/img/product/home-five/product-25.jpg" alt="thumb" />
+                                        <img src="localhost:1000/assets/img/product/home-five/product-25.jpg" alt="thumb" />
                                     </div>
                                     <div className="tpselectproduct__content">
                                         <div className="tpselectproduct__rating">
@@ -267,7 +267,7 @@ export default function SelectedProduct() {
                                 </div>
                                 <div className="tpselectproduct__item d-flex align-items-center mb-25">
                                     <div className="tpselectproduct__thumb mr-25">
-                                        <img src="assets/img/product/home-five/product-9.jpg" alt="thumb" />
+                                        <img src="localhost:1000/assets/img/product/home-five/product-9.jpg" alt="thumb" />
                                     </div>
                                     <div className="tpselectproduct__content">
                                         <div className="tpselectproduct__rating">

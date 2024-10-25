@@ -14,7 +14,7 @@ export default function Product4() {
                     <div className="row">
                         <div className="col-md-6 col-12">
                             <div className="tpsection mb-40">
-                                <h4 className="tpsection__title">Popular <span> Products <img src="assets/img/icon/title-shape-01.jpg" alt="" /></span></h4>
+                                <h4 className="tpsection__title">Popular <span> Products <img src="localhost:1000/assets/img/icon/title-shape-01.jpg" alt="" /></span></h4>
                             </div>
                         </div>
                         <div className="col-md-6 col-12">

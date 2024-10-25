@@ -17,6 +17,7 @@ const Login = async (req, res) => {
     const { email, password } = req.body;
     try {
       const check = await UserDetails.findOne({email:email});
+      console.log(check);
       if (check && check.password === password) {
         res.json({ message: "Login successful" });
       } else {
@@ -28,6 +29,7 @@ const Login = async (req, res) => {
 }
 
 const SignUp = async (req, res) => {
+  console.log(req.body);
   const { username, email, phonenumber, address, organisation, password } = req.body;
   try {
       const check = await UserDetails.findOne({ email: email });

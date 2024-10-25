@@ -101,7 +101,7 @@ const ShopSingleDynamicV1 = () => {
                                     </div>
                                     <div className="tpproduct-details__price mb-30">
                                         <del>$9.35</del>
-                                        <span>$ {product?.price?.max}</span>
+                                        <span>{product?.price?.max} $</span>
                                     </div>
                                     <div className="tpproduct-details__pera">
                                         <p>Priyoshop has brought to you the Hijab 3 Pieces Combo Pack PS23. It is a <br />completely modern design and you feel comfortable to put on this hijab. <br />Buy it at the best price.</p>

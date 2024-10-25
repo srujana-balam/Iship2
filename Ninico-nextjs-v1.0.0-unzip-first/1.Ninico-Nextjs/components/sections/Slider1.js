@@ -42,7 +42,7 @@ export default function Slider1() {
                                                     <h4 className="tp-slide-item__sub-title">Accessories</h4>
                                                     <h3 className="tp-slide-item__title mb-25">Lamps
                                                         <i>
-                                                            <img src="/assets/img/icon/title-shape-02.jpg" alt="" />
+                                                            <img src="localhost:1000/assets/img/icon/title-shape-02.jpg" alt="" />
                                                         </i>
                                                        
                                                     </h3>
