@@ -49,7 +49,7 @@ export default function Slider1() {
 
                                                 </div>
                                                 <div className="tp-slide-item__img">
-                                                    <img src="localhost:1000/assets/img/slider/banner-1.jpg" alt="" />
+                                                    <img src="/assets/img/slider/banner-1.jpg" alt="" />
                                                 </div>
                                             </div>
                                         </SwiperSlide>
@@ -61,7 +61,7 @@ export default function Slider1() {
 
                                                 </div>
                                                 <div className="tp-slide-item__img">
-                                                    <img src="localhost:1000/assets/img/slider/banner-2.jpg" alt="" />
+                                                    <img src="/assets/img/slider/banner-2.jpg" alt="" />
                                                 </div>
                                             </div>
                                         </SwiperSlide>
@@ -73,7 +73,7 @@ export default function Slider1() {
                                                     
                                                 </div>
                                                 <div className="tp-slide-item__img">
-                                                    <img src="localhost:1000/assets/img/slider/banner-3.jpg" alt="" />
+                                                    <img src="/assets/img/slider/banner-3.jpg" alt="" />
                                                 </div>
                                             </div>
                                         </SwiperSlide>
@@ -88,7 +88,7 @@ export default function Slider1() {
                                     <div className="tpslider-banner tp-slider-sm-banner mb-30">
                                         <Link href="/shop-details">
                                             <div className="tpslider-banner__img">
-                                                <img src="localhost:1000/assets/img/slider/banner-slider-01.jpg" alt="" />
+                                                <img src="/assets/img/slider/banner-slider-01.jpg" alt="" />
                                                 <div className="tpslider-banner__content">
                                                     <span className="tpslider-banner__sub-title">Hand made</span>
                                                     <h4 className="tpslider-banner__title">Kitchen Wear</h4>
@@ -101,7 +101,7 @@ export default function Slider1() {
                                     <div className="tpslider-banner">
                                         <Link href="/shop-details">
                                             <div className="tpslider-banner__img">
-                                                <img src="localhost:1000/assets/img/slider/banner-slider-02.jpg" alt="" />
+                                                <img src="/assets/img/slider/banner-slider-02.jpg" alt="" />
                                                 <div className="tpslider-banner__content">
                                                     <span className="tpslider-banner__sub-title">Popular</span>
                                                     <h4 className="tpslider-banner__title">Wall Hangings</h4>

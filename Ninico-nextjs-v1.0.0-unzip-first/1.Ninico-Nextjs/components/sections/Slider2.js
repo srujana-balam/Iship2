@@ -82,7 +82,7 @@ export default function Slider2() {
                                                 <div className="tpslidertwo__img p-relative text-end">
                                                     <img src="/assets/img/slider/slider-02.png" alt="" />
                                                     <div className="tpslidertwo__img-shape">
-                                                        <img src="localhost:1000/assets/img/slider/fasion-tag-01.png" alt="tag" />
+                                                        <img src="/assets/img/slider/fasion-tag-01.png" alt="tag" />
                                                     </div>
                                                 </div>
                                             </div>
@@ -109,9 +109,9 @@ export default function Slider2() {
                                             </div>
                                             <div className="col-xl-7 col-lg-6 col-md-6 d-none d-md-block">
                                                 <div className="tpslidertwo__img p-relative text-end">
-                                                    <img src="localhost:1000/assets/img/slider/slider-03.png" alt="" />
+                                                    <img src="/assets/img/slider/slider-03.png" alt="" />
                                                     <div className="tpslidertwo__img-shape">
-                                                        <img src="localhost:1000/assets/img/slider/fasion-tag-01.png" alt="tag" />
+                                                        <img src="/assets/img/slider/fasion-tag-01.png" alt="tag" />
                                                     </div>
                                                 </div>
                                             </div>
