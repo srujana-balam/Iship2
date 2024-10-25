@@ -43,7 +43,7 @@ export default function Slider4() {
                                             <div className="tpslidertwo__item slidre-item-4 ml-145 text-center">
                                                 <div className="tpslidertwo__content">
                                                     <h3 className="tpslidertwo__title mb-10">Will Never <br /> Compromise Beauty</h3>
-                                                    <p>New Modern Stylist Fashionable Women's Wear holder</p>
+                                                    <p>New Stylist Fashionable Women's Wear holder</p>
                                                     <div className="tpslidertwo__slide-btn d-flex justify-content-center">
                                                         <Link className="tp-btn banner-animation tpslider-btn-4 mr-25" href="/shop">Shop Now <i className="fal fa-long-arrow-right" />
                                                         </Link>
