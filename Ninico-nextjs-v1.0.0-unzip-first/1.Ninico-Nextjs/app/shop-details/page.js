@@ -48,7 +48,7 @@ export default function ShopDetails() {
     }
     return (
         <>
-            <Layout headerStyle={3} footerStyle={1} breadcrumbTitle="Shop Details">
+            {/* <Layout headerStyle={3} footerStyle={1} breadcrumbTitle="Shop Details">
                 <div>
                     <section className="product-area pt-80 pb-25">
                         <div className="container">
@@ -218,7 +218,7 @@ export default function ShopDetails() {
                     </section>
                     {/* product-area-end */}
                     {/* product-details-area-start */}
-                    <div className="product-details-area">
+                    {/* <div className="product-details-area">
                         <div className="container">
                             <div className="row">
                                 <div className="col-lg-12">
@@ -432,7 +432,7 @@ export default function ShopDetails() {
                     </div>
                     {/* product-details-area-end */}
                     {/* related-product-area-start */}
-                    <div className="related-product-area pt-65 pb-50 related-product-border">
+                    {/* <div className="related-product-area pt-65 pb-50 related-product-border">
                         <div className="container">
                             <div className="row align-items-center">
                                 <div className="col-sm-6">
@@ -614,7 +614,7 @@ export default function ShopDetails() {
                     </div>
                 </div>
 
-            </Layout>
+            </Layout> */} 
         </>
     )
 }
