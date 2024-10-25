@@ -14,7 +14,7 @@ export default function HeaderMobSticky({ scroll, isMobileMenu, handleMobileMenu
                         </div>
                         <div className="col-6">
                             <div className="logo text-center">
-                                <Link href="/"><img src="MainLogo.jpg" alt="logo" /></Link>
+                                <Link href="/"><img src="http://localhost:1000/MainLogo.jpg" alt="logo" /></Link>
                             </div>
                         </div>
                         <div className="col-3">
