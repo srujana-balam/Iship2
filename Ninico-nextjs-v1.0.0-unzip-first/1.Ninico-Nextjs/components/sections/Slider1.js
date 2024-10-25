@@ -93,7 +93,7 @@ export default function Slider1() {
                                                 <img src="/assets/img/slider/banner-slider-01.jpg" alt="" />
                                                 <div className="tpslider-banner__content">
                                                     <span className="tpslider-banner__sub-title">Hand made</span>
-                                                    <h4 className="tpslider-banner__title">New Modern  Stylist <br /> Crafts</h4>
+                                                    <h4 className="tpslider-banner__title">Kitchen Wear</h4>
                                                 </div>
                                             </div>
                                         </Link>
@@ -106,8 +106,7 @@ export default function Slider1() {
                                                 <img src="/assets/img/slider/banner-slider-02.jpg" alt="" />
                                                 <div className="tpslider-banner__content">
                                                     <span className="tpslider-banner__sub-title">Popular</span>
-                                                    <h4 className="tpslider-banner__title">Energy with our <br /> newest
-                                                        collection</h4>
+                                                    <h4 className="tpslider-banner__title">Wall Hangings</h4>
                                                 </div>
                                             </div>
                                         </Link>
