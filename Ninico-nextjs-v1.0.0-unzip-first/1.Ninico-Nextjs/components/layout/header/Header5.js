@@ -61,11 +61,11 @@ export default function Header5({ scroll, isMobileMenu, handleMobileMenu, isCart
                                                     <li><Link href="/shop-details">Shop Details </Link></li>
                                                     <li><Link href="/shop-details-2">Shop Details 2</Link></li>
                                                     <li><Link href="/shop-location">Shop Location</Link></li> */}
-                                                    <li><Link href="/cart">Cart</Link></li>
+                                                    {/* <li><Link href="/cart">Cart</Link></li>
                                                     <li><Link href="/sign-in">Sign In</Link></li>
                                                     <li><Link href="/checkout">Checkout</Link></li>
                                                     <li><Link href="/wishlist">Wishlist</Link></li>
-                                                    <li><Link href="/track">Product Track</Link></li>
+                                                    <li><Link href="/track">Product Track</Link></li> */}
                                                 </ul>
                                             </li>
                                             {/* <li className="has-dropdown has-megamenu">

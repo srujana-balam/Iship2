@@ -118,10 +118,10 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu, isCart
                                                     <Link href="/shop">Shop</Link>
                                                     <ul className="submenu">
                                                         <li><Link href="/shop">Shop</Link></li>
-                                                        <li><Link href="/cart">Cart</Link></li>
-                                                        <li><Link href="/sign-in">Sign In</Link></li>
-                                                        <li><Link href="/checkout">Checkout</Link></li>
-                                                        <li><Link href="/wishlist">Wishlist</Link></li>
+                                                        {/* <li><Link href="/cart">Cart</Link></li> */}
+                                                        {/* <li><Link href="/sign-in">Sign In</Link></li> */}
+                                                        {/* <li><Link href="/checkout">Checkout</Link></li> */}
+                                                        {/* <li><Link href="/wishlist">Wishlist</Link></li> */}
                                                     </ul>
                                                 </li>
                                                 {/* <li className="has-dropdown has-megamenu">
