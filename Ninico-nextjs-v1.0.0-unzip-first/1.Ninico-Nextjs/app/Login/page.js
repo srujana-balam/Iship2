@@ -158,7 +158,7 @@ export default function SignUp() {
                                             </span>
                                         </div>
                                         <div className="tpsign__account">
-                                            <Link href="/Login">Already Have Account?</Link>
+                                            <Link href="/sign-in">Already Have Account?</Link>
                                         </div>
                                         <div className="tptrack__btn">
                                             <button type="submit" className="tptrack__submition tpsign__reg">
