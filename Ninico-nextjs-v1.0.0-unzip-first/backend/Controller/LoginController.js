@@ -1,33 +1,39 @@
-const express = require('express');
-const app = express();
-app.use(express.json());
 const UserDetails = require("../Models/LoginModel");
+<<<<<<< HEAD
+const bcrypt = require("bcrypt");
+const jwt = require("jsonwebtoken");
+=======
 const Contact = require("../Models/contact_supportModel");
 const CheckOut = require("../Models/checkout");
 const nodemailer = require('nodemailer');
 const crypto = require('crypto');
+>>>>>>> origin/main
 
-const Controller = async (req, res) => {
-   res.send("Working");
-}
+exports.Test = (req, res) => {
+    res.send("API Testing Successful");
+};
 
-const Login = async (req, res) => { 
-    if (!req.body) {
-        return res.status(400).json({ message: "Request body is missing" });
-    }
-    
-    const { email, password } = req.body;
+exports.SignUp = async (req, res) => {
     try {
-      const check = await UserDetails.findOne({email:email});
-      console.log(check);
-      if (check && check.password === password) {
-        res.json({ message: "Login successful" });
-      } else {
-        res.json({ message: "Invalid credentials" });
-      }
-    } catch (e) {
-      res.json("Not Exist");
+        const { username, email, phonenumber, address, password, organisation } = req.body;
+        const hashedPassword = await bcrypt.hash(password, 10);
+        
+        const newUser = new UserDetails({
+            username,
+            email,
+            phonenumber,
+            address,
+            password: hashedPassword,
+            organisation
+        });
+        
+        await newUser.save();
+        res.status(201).json({ message: "User registered successfully" });
+    } catch (error) {
+        res.status(500).json({ message: "Error registering user" });
     }
+<<<<<<< HEAD
+=======
 }
 const SignUp = async (req, res) => {
   console.log(req.body);
@@ -45,15 +51,29 @@ const SignUp = async (req, res) => {
       console.error("Error during signup:", e);
       return res.status(500).json({ message: "An error occurred while processing the request" });
   }
+>>>>>>> origin/main
 };
 
-const ForgotPassword = async (req, res) => {
-  const { email } = req.body;
-  try {
-    const user = await UserDetails.findOne({ email: email });
-    if (!user) {
-      return res.status(404).json({ message: "User not found" });
+exports.Login = async (req, res) => {
+    try {
+        const { email, password } = req.body;
+        const user = await UserDetails.findOne({ email });
+        
+        if (!user) {
+            return res.status(404).json({ message: "User not found" });
+        }
+        
+        const isValidPassword = await bcrypt.compare(password, user.password);
+        if (!isValidPassword) {
+            return res.status(401).json({ message: "Invalid password" });
+        }
+        
+        res.status(200).json({ message: "Login successful" });
+    } catch (error) {
+        res.status(500).json({ message: "Error logging in" });
     }
+<<<<<<< HEAD
+=======
 
     const resetToken = crypto.randomBytes(20).toString('hex');
     user.resetPasswordToken = resetToken;
@@ -89,30 +109,38 @@ const ForgotPassword = async (req, res) => {
     console.error("Error in forgot password:", error);
     res.status(500).json({ message: "Server error" });
   }
+>>>>>>> origin/main
 };
 
-const ResetPassword = async (req, res) => {
-  const { token, newPassword } = req.body;
-  try {
-    const user = await UserDetails.findOne({
-      resetPasswordToken: token,
-      resetPasswordExpires: { $gt: Date.now() }
-    });
+exports.ForgotPassword = async (req, res) => {
+    try {
+        const { email } = req.body;
+        const user = await UserDetails.findOne({ email });
+        
+        if (!user) {
+            return res.status(404).json({ message: "User not found" });
+        }
 
-    if (!user) {
-      return res.status(400).json({ message: "Password reset token is invalid or has expired" });
+        // Create a temporary token
+        const token = jwt.sign(
+            { userId: user._id },
+            'your-secret-key', // Replace with a secure secret key
+            { expiresIn: '1h' }
+        );
+
+        // Save token to user document
+        user.resetPasswordToken = token;
+        user.resetPasswordExpires = Date.now() + 3600000; // 1 hour
+        await user.save();
+
+        res.status(200).json({ 
+            message: "Email verified successfully", 
+            token: token 
+        });
+    } catch (error) {
+        console.error('Forgot password error:', error);
+        res.status(500).json({ message: "Error processing request" });
     }
-
-    user.password = newPassword;
-    user.resetPasswordToken = undefined;
-    user.resetPasswordExpires = undefined;
-    await user.save();
-
-    res.status(200).json({ message: "Password has been reset" });
-  } catch (error) {
-    console.error("Error in reset password:", error);
-    res.status(500).json({ message: "Server error" });
-  }
 };
 const ContactSupport = async (req, res) => {
   if (req.method === "POST") {
@@ -161,6 +189,37 @@ const Order = async (req, res) => {
   }
 };
 
+<<<<<<< HEAD
+exports.ResetPassword = async (req, res) => {
+    try {
+        const { token, newPassword } = req.body;
+        
+        // Verify token and find user
+        const decoded = jwt.verify(token, 'your-secret-key');
+        const user = await UserDetails.findOne({
+            _id: decoded.userId,
+            resetPasswordToken: token,
+            resetPasswordExpires: { $gt: Date.now() }
+        });
+
+        if (!user) {
+            return res.status(400).json({ message: "Invalid or expired token" });
+        }
+
+        // Hash new password and update user
+        const hashedPassword = await bcrypt.hash(newPassword, 10);
+        user.password = hashedPassword;
+        user.resetPasswordToken = undefined;
+        user.resetPasswordExpires = undefined;
+        await user.save();
+
+        res.status(200).json({ message: "Password reset successful" });
+    } catch (error) {
+        console.error('Reset password error:', error);
+        res.status(500).json({ message: "Error resetting password" });
+    }
+};
+=======
 exports.Order=Order;
 exports.ContactSupport=ContactSupport;
 exports.Test = Controller;
@@ -168,3 +227,4 @@ exports.Login = Login;
 exports.SignUp = SignUp;
 exports.ForgotPassword = ForgotPassword;
 exports.ResetPassword = ResetPassword;
+>>>>>>> origin/main

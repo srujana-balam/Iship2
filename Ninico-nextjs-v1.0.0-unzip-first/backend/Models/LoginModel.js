@@ -22,7 +22,7 @@ const UserDetails = new mongoose.Schema({
     },
     organisation: {
         type: String,
-        required: true  
+        required: true
     },
     resetPasswordToken: String,
     resetPasswordExpires: Date
