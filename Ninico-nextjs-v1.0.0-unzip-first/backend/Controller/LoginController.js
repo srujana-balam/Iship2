@@ -3,6 +3,7 @@ const app = express();
 app.use(express.json());
 const UserDetails = require("../Models/LoginModel");
 const Contact = require("../Models/contact_supportModel");
+const CheckOut = require("../Models/checkout");
 const nodemailer = require('nodemailer');
 const crypto = require('crypto');
 
@@ -134,6 +135,33 @@ const ContactSupport = async (req, res) => {
     res.status(405).json({ message: "Method not allowed" });
   }
 };
+const Order = async (req, res) => {
+  if (req.method === "POST") {
+    const { country, firstname, lastname, caddress, town, state, postalcode, cemail, phone } = req.body;
+    try {
+      const newCheck = {
+        country,
+        firstname,
+        lastname,
+        caddress,
+        town,
+        state,
+        postalcode,
+        cemail,
+        phone
+      };
+      await CheckOut.insertMany([newCheck]);
+      res.status(200).json({ message: "Address Updated" });
+    } catch (error) {
+      console.error("Error saving Address:", error);
+      res.status(500).json({ message: `Error saving address: ${error.message}` });
+    }
+  } else {
+    res.status(405).json({ message: "Method not allowed" });
+  }
+};
+
+exports.Order=Order;
 exports.ContactSupport=ContactSupport;
 exports.Test = Controller;
 exports.Login = Login;
