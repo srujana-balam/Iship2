@@ -41,10 +41,10 @@ export default function MobileMenu() {
                                 <Link href="/shop">Shop</Link>
                                 <ul className="submenu" style={{ display: `${isActive.key == 2 ? "block" : "none"}` }}>
                                     <li><Link href="/shop">Shop</Link></li>
-                                    <li><Link href="/cart">Cart</Link></li>
+                                    {/* <li><Link href="/cart">Cart</Link></li>
                                     <li><Link href="/sign-in">Sign In</Link></li>
                                     <li><Link href="/checkout">Checkout</Link></li>
-                                    <li><Link href="/wishlist">Wishlist</Link></li>
+                                    <li><Link href="/wishlist">Wishlist</Link></li> */}
                                  
                                 </ul>
                                 <Link className="mean-expand" onClick={() => handleClick(2)} href="#" style={{ fontSize: 18 }}><i className="fal fa-plus" /></Link>
