@@ -1,9 +1,45 @@
 
+"use client"
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
+import React from "react"
+import { useState } from "react"
+import axios from "axios"
 export default function SignIn() {
+    const [isActive, setIsActive] = useState(false);
+    const [showPassword, setShowPassword] = useState(false);
+    const [email, setEmail] = useState('');
+    const [password, setPassword] = useState('');
+    const handleRegisterClick = () => {
+      setIsActive(true);
+    };
+  
+    const handleLoginClick = () => {
+      setIsActive(false);
+    };
+  
+    const togglePasswordVisibility = () => {
+      setShowPassword(!showPassword);
+    };
+    const handleSignIn = (e) => {
 
-
+        e.preventDefault();
+        alert("Testing")
+        const loginUrl = "http://localhost:1000/api/login";
+        
+        axios.post(loginUrl, { email, password })
+          .then(res => {
+            if (res.data.message === "Login successful") {
+              window.location.href="/";
+            } else if (res.data.message === "Invalid credentials") {
+              alert("User has not signed up");
+            }
+          })
+          .catch(err => {
+            alert("Wrong Details");
+            console.log(err);
+          });
+      };
     return (
         <>
             <Layout headerStyle={3} footerStyle={1} breadcrumbTitle="Sign In">
@@ -30,93 +66,25 @@ export default function SignIn() {
                                         <div className="tptrack__id mb-10">
                                             <form action="#">
                                                 <span><i className="fal fa-user" /></span>
-                                                <input type="email" placeholder="Username / email address" />
+                                                <input type="email" placeholder="Username / email address" required onChange={(e) =>setEmail(e.target.value)}/>
                                             </form>
                                         </div>
                                         <div className="tptrack__email mb-10">
                                             <form action="#">
                                                 <span><i className="fal fa-key" /></span>
-                                                <input type="text" placeholder="Password" />
+                                                <input type={showPassword ? 'text' : 'password'} placeholder="Password" required onChange={(e)=>setPassword(e.target.value)}/>
                                             </form>
                                         </div>
                                         <div className="tpsign__remember d-flex align-items-center justify-content-between mb-15">
                                             <div className="form-check">
-                                                <input className="form-check-input" type="checkbox" id="flexCheckDefault" />
-                                                <label className="form-check-label" htmlFor="flexCheckDefault">Remember me</label>
+                                                <Link href="/Login">Don't have an account</Link>
                                             </div>
                                             <div className="tpsign__pass">
                                                 <Link href="#">Forget Password</Link>
                                             </div>
                                         </div>
                                         <div className="tptrack__btn">
-                                            <button className="tptrack__submition">Login Now<i className="fal fa-long-arrow-right" /></button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div className="col-lg-6 col-sm-12">
-                                <div className="tptrack__product mb-40">
-                                    <div className="tptrack__thumb">
-                                        <img src="sign-up-image.jpg" alt="" />
-                                    </div>
-                                    <div className="tptrack__content grey-bg-3">
-                                        <div className="tptrack__item d-flex mb-20">
-                                            <div className="tptrack__item-icon">
-                                                <img src="/assets/img/icon/sign-up.png" alt="" />
-                                            </div>
-                                            <div className="tptrack__item-content">
-                                                <h4 className="tptrack__item-title">Sign Up</h4>
-                                                <p>Welcome to Home Aura</p>
-                                                <p>Create your account to start designing your eco-friendly space!</p>
-                                            </div>
-                                        </div>
-                                        <div className="tptrack__id mb-10">
-
-                                            <form action="#">
-                                                {/* <span><i className="fal fa-user" /></span> */}
-                                                <input type="text" placeholder="Username" />
-                                            </form>
-                                        </div>
-                                        <div className="tptrack__id mb-10">
-
-                                            <form action="#">
-                                                {/* <span><i className="fal fa-envelope" /></span> */}
-                                                <input type="email" placeholder="Email address" />
-                                            </form>
-                                        </div>
-                                        <div className="tptrack__id mb-10">
-
-                                            <form action="#">
-                                                {/* <span><i className="fa-solid fa-phone-flip"></i></span> */}
-                                                <input type="number" placeholder="Phone Number" />
-                                            </form>
-                                        </div>
-                                        <div className="tptrack__id mb-10">
-
-                                            <form action="#">
-                                                {/* <span><i className="fa-solid fa-phone-flip fa-rotate-90"></i></span> */}
-                                                <input type="text" placeholder="Address" />
-                                            </form>
-                                        </div>
-
-                                        <div className="tptrack__email mb-10">
-                                            <form action="#">
-                                                {/* <span><i className="fal fa-key" /></span> */}
-                                                <input type="text" placeholder="Password" />
-                                            </form>
-                                        </div>
-                                        <div className="tptrack__id mb-10">
-
-                                            <form action="#">
-                                                {/* <span><i className="fa-solid fa-phone-flip fa-rotate-90"></i></span> */}
-                                                <input type="organisation" placeholder="Organisation" />
-                                            </form>
-                                        </div>
-                                        <div className="tpsign__account">
-                                            <Link href="#">Already Have Account?</Link>
-                                        </div>
-                                        <div className="tptrack__btn">
-                                            <button className="tptrack__submition tpsign__reg">Register Now<i className="fal fa-long-arrow-right" /></button>
+                                            <button type="submit" className="tptrack__submition" onSubmit={handleSignIn}>Login Now<i className="fal fa-long-arrow-right" /></button>
                                         </div>
                                     </div>
                                 </div>
