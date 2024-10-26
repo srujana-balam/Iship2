@@ -1,8 +1,7 @@
 const express = require('express');
 const Route = express.Router();
 const EntireController = require("../Controller/LoginController");
-Route.post("check-api",EntireController.Order);
-Route.post("/contact-api",EntireController.ContactSupport);
+
 Route.get("/Testing-Api", EntireController.Test);
 Route.post("/signup", EntireController.SignUp);
 Route.post("/login", EntireController.Login);

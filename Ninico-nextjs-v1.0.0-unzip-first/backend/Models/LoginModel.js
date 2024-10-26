@@ -1,4 +1,5 @@
 const mongoose = require('mongoose');
+
 const UserDetails = new mongoose.Schema({
     username: {
         type: String,
